@@ -1,0 +1,24 @@
+# SPDX-FileCopyrightText: 2024 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
+# SPDX-FileCopyrightText: Climate and Energy Policy Ontology <https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology>
+# SPDX-License-Identifier: CC0-1.0
+
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+authors:
+  - family-names: "Weko"
+    given-names: "Silvia"
+    alias: ""
+    affiliation: "Friedrich-Alexander University Erlangen-Nürnberg"
+    orcid: ""
+  - family-names: "Hülk"
+    given-names: "Ludwig"
+    alias: "Ludee"
+    affiliation: "Reiner Lemoine Institut"
+    orcid: "https://orcid.org/0000-0003-4655-2321"
+title: "Climate and Energy Policy Ontology (CEPO)"
+type: software
+license: CC0-1.0
+version: 0.1.0
+doi: null
+date-released: 2025-10-13
+url: "https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/"
