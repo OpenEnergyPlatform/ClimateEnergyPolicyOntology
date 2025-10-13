@@ -56,12 +56,18 @@ Contributors:
     :target: https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/graphs/contributors
     :alt: [contrib.rocks](https://contrib.rocks)
 
-License and Citation
-====================
+License
+=======
 | This repository is **dual-licensed** under `Creative Commons Zero v1.0 Universal (CC0-1.0) <https://creativecommons.org/publicdomain/zero/1.0/legalcode>`_ or `MIT License (MIT) <https://opensource.org/license/mit>`_.
-| See `LICENSE.txt <LICENSE.txt>`_ for rights and obligations.
-| See the *Cite this repository* function or `CITATION.cff <https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/blob/production/CITATION.cff>`_ for citation of this repository.
-| Copyright: `Climate and Energy Policy Ontology <https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/>`_ | `CC0-1.0 <LICENSE.txt>`_
+| You can choose between one of them if you use this work. <br>
+| See `LICENSE-CC0.txt <LICENSE-CC0.txt>`_ and `LICENSE-MIT.txt <LICENSE-MIT.txt>`_ for rights and obligations.
+| Copyright: `Climate and Energy Policy Ontology <https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/>`_ | `CC0-1.0 <LICENSE-CC0.txt>`_ OR `MIT <LICENSE-MIT.txt>`_
+
+Citation
+========
+| For **scientific citation** of this ontology, please refer to the `CITATION.cff <https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/blob/production/CITATION.cff>`_ file. <br>
+
+
 
 
 .. |badge_license| image:: https://img.shields.io/github/license/OpenEnergyPlatform/ClimateEnergyPolicyOntology
