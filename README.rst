@@ -73,10 +73,10 @@ It also maps its alignment with the CPDB and CPR policy instrument typologies.
 The ontology can be used to code policy documents with information about the
 instruments that they contain.
 Such policy data can be used to answer questions such as:
+
 - Which countries tend to use the most regulatory instruments vs economic instruments to introduce electric vehicles?
 - What are the most common types of tax incentives to promote renewable energy, and how have these changed over time?
 - Which policy instruments (or mixes of policy instruments) have been the most effective at promoting decarbonization outcomes (emissions reductions, growth in clean energy generation, etc.)?
-
 
 Documentation
 =============
