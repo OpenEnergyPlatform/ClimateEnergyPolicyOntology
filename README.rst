@@ -18,7 +18,7 @@ Climate and Energy Policy Ontology
    :widths: auto
 
    * - License
-     - |badge_license|
+     - |badge_license_CC0| |badge_license_MIT|
    * - Documentation
      - 
    * - Tests
@@ -100,7 +100,7 @@ License
 | This repository is **dual-licensed** under `Creative Commons Zero v1.0 Universal (CC0-1.0) <https://creativecommons.org/publicdomain/zero/1.0/legalcode>`_ or `MIT License (MIT) <https://opensource.org/license/mit>`_.
 | You can choose between one of them if you use this work.
 | See `LICENSE-CC0.txt <LICENSE-CC0.txt>`_ and `LICENSE-MIT.txt <LICENSE-MIT.txt>`_ for rights and obligations.
-| Copyright: `Climate and Energy Policy Ontology <https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/>`_ | `CC0-1.0 <LICENSE-CC0.txt>`_ OR `MIT <LICENSE-MIT.txt>`_
+| Copyright: `Climate and Energy Policy Ontology <https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/>`_ | `CC0-1.0 <http://creativecommons.org/publicdomain/zero/1.0/>`_ OR `MIT <https://opensource.org/license/mit>`_
 
 Citation
 ========
@@ -109,9 +109,13 @@ Citation
 
 
 
-.. |badge_license| image:: https://img.shields.io/github/license/OpenEnergyPlatform/ClimateEnergyPolicyOntology
-    :target: https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/blob/production/LICENSE.txt
-    :alt: License
+.. |badge_license_CC0| image:: https://img.shields.io/badge/License-CC0%201.0-green.svg
+    :target: http://creativecommons.org/publicdomain/zero/1.0/
+    :alt: License CC0
+
+.. |badge_license_MIT| image:: https://img.shields.io/badge/License-MIT-green.svg
+    :target: https://opensource.org/license/mit
+    :alt: License MIT
 
 .. |badge_issue_open| image:: https://img.shields.io/github/issues-raw/OpenEnergyPlatform/ClimateEnergyPolicyOntology
     :target: https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/issues
