@@ -12,7 +12,7 @@
 Climate and Energy Policy Ontology
 ==================================
 
-** A common ontology for ... ToDo **
+** A common ontology for ToDo **
 
 .. list-table::
    :widths: auto
@@ -59,7 +59,7 @@ Contributors:
 License
 =======
 | This repository is **dual-licensed** under `Creative Commons Zero v1.0 Universal (CC0-1.0) <https://creativecommons.org/publicdomain/zero/1.0/legalcode>`_ or `MIT License (MIT) <https://opensource.org/license/mit>`_.
-| You can choose between one of them if you use this work. <br>
+| You can choose between one of them if you use this work.
 | See `LICENSE-CC0.txt <LICENSE-CC0.txt>`_ and `LICENSE-MIT.txt <LICENSE-MIT.txt>`_ for rights and obligations.
 | Copyright: `Climate and Energy Policy Ontology <https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/>`_ | `CC0-1.0 <LICENSE-CC0.txt>`_ OR `MIT <LICENSE-MIT.txt>`_
 
