@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0]
 
 ### Added
+- Add introduction, description, scope, and logo to README [(#2)](https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/pull/2)
 
 ### Changed
 
