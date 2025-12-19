@@ -15,6 +15,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="http://schema.org/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:AnnotationVocabulary="https://www.omg.org/spec/Commons/AnnotationVocabulary/"
@@ -29,6 +30,8 @@
         <dc:contributor>(0004) Ludwig Hülk (@Ludee)</dc:contributor>
         <terms:license>http://creativecommons.org/publicdomain/zero/1.0/</terms:license>
         <terms:title>Climate and Energy Policy Ontology</terms:title>
+        <terms:abstract>The Climate and Energy Policy Ontology (CEPO) is a common set of definitions and relationships which can be used to structure information about climate and energy policy instruments.</terms:abstract>
+        <schema:citation>Cite as: Climate and Energy Policy Ontology v0.1.0</schema:citation>
         <owl:versionInfo>0.1.0</owl:versionInfo>
     </owl:Ontology>
     
@@ -48,6 +51,18 @@
     <!-- http://purl.obolibrary.org/obo/OMO_0003000 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003000"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://schema.org/citation -->
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/citation"/>
     
 
 
