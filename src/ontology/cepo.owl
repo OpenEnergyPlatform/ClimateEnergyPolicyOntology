@@ -23,6 +23,13 @@
     <owl:Ontology rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2022-11-07/iao.owl"/>
         <owl:imports rdf:resource="https://www.omg.org/spec/Commons/20221101/ContextualDesignators/"/>
+        <dc:contributor>(0001) Amanda Wein (@amanda-wein)</dc:contributor>
+        <dc:contributor>(0002) Silvia Weko (@silviaweko)</dc:contributor>
+        <dc:contributor>(0003) Mirjam Stappel (@stap-m)</dc:contributor>
+        <dc:contributor>(0004) Ludwig Hülk (@Ludee)</dc:contributor>
+        <terms:license>http://creativecommons.org/publicdomain/zero/1.0/</terms:license>
+        <terms:title>Climate and Energy Policy Ontology</terms:title>
+        <owl:versionInfo>0.1.0</owl:versionInfo>
     </owl:Ontology>
     
 
