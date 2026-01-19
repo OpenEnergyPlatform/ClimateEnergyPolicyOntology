@@ -981,10 +981,9 @@
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010116">
         <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010114"/>
-        <obo:IAO_0000115 xml:lang="en">A moratorium is a technology standard that forbids an activity, technology or product because of its environmental harms.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">ban</obo:IAO_0000118>
+        <obo:IAO_0000115 xml:lang="en">A ban is a technology standard that forbids an activity, technology or product because of its environmental harms.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPR</dc:source>
-        <rdfs:label xml:lang="en">moratorium</rdfs:label>
+        <rdfs:label xml:lang="en">ban</rdfs:label>
     </owl:Class>
     
 
@@ -1826,6 +1825,42 @@
         <obo:IAO_0000115 xml:lang="en">A priority area regulation is a zoning and spatial planning regulation that prioritizes a certain area to be built or entered, and within this zone, the other activities are mainly not allowed.</obo:IAO_0000115>
         <dc:source xml:lang="en">adapted from Bucha and Ramirez Camargo, “Deliverable D2.10 Data on Regulatory and Socio-Economic Conditions and Impacts (b).” Dec. 2024.</dc:source>
         <rdfs:label xml:lang="en">priority area regulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010193 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010193">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010116"/>
+        <obo:IAO_0000112 xml:lang="en">Gas may not be drilled in certain territories.</obo:IAO_0000112>
+        <obo:IAO_0000115>A moratorium is a ban which is framed as temporary; placing a &quot;moratorium&quot; implies a willingness to continu studying it and potentially revisit it in the future.</obo:IAO_0000115>
+        <dc:source xml:lang="en">https://climatepolicyradar.wikibase.cloud/wiki/Item:Q1413</dc:source>
+        <rdfs:label xml:lang="en">moratorium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010194 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010194">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010116"/>
+        <obo:IAO_0000112 xml:lang="en">Coal may no longer be mined or burned in a certain country.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A phase out is a ban on technologies, substances and practices which aims to catalyze their decline to meet environmental sustainability objectives.</obo:IAO_0000115>
+        <dc:source xml:lang="en">https://climatepolicyradar.wikibase.cloud/wiki/Item:Q1414</dc:source>
+        <rdfs:label xml:lang="en">phase out</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010195 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010195">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010116"/>
+        <obo:IAO_0000112 xml:lang="en">Coal power stations may only operate at 35% capacity or less.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A phase down is a ban on certain amounts of harmful technoloies, substances or practices; it differs from a phase-out in that its aim is reduction and not elimination.</obo:IAO_0000115>
+        <dc:source xml:lang="en">https://climatepolicyradar.wikibase.cloud/wiki/Item:Q1415</dc:source>
+        <rdfs:label xml:lang="en">phase down</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
