@@ -563,7 +563,13 @@
     <!-- http://purl.org/cepo/ontology#cepo_00010066 -->
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010066">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010056"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010037"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An auction with market premium is a market premium granted in a bidding competition or auction, wherein tendered capacity includes additional support through a mechanism such as a feed-in tariff, feed-in premium, or contract for difference.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">auction with market premium</rdfs:label>
     </owl:Class>
@@ -1862,6 +1868,88 @@
         <obo:IAO_0000115 xml:lang="en">A phase down is a ban on certain amounts of harmful technoloies, substances or practices; it differs from a phase-out in that its aim is reduction and not elimination.</obo:IAO_0000115>
         <dc:source xml:lang="en">https://climatepolicyradar.wikibase.cloud/wiki/Item:Q1415</dc:source>
         <rdfs:label xml:lang="en">phase down</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010196 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010196">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An auction with feed-in premium is an auction where participants compete for a fixed feed-in premium.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">auction with FIP</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">auction with feed-in premium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010197 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010197">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An auction with feed-in tariff is an auction where participants compete for a feed-in tariff.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">auction with FIT</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">auction with feed-in tariff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010198 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010198">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
+        <obo:IAO_0000115 xml:lang="en">An auction with one-sided sliding feed-in premium is an auction where participants compete for a one-sided sliding feed-in premium.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">auction with 1-sided sliding FIP</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">auction with one-sided sliding feed-in premium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010199 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010199">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
+        <obo:IAO_0000115 xml:lang="en">An auction with two-sided sliding feed-in premium is an auction where partiicpants compete for a two-sided sliding feed-in premium.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">auction with 2-sided sliding FIP</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">auction with two-sided sliding feed-in premium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010200 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010200">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An auction with grant is an auction where participants compete for grants covering a certain amount of project costs.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">auction with grant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010201 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010201">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
+        <obo:IAO_0000115 xml:lang="en">An auction with zero subsidy is an auction where participants compete for the right to develop a project without receiving monetary support.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">auction with zero subsidy</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
