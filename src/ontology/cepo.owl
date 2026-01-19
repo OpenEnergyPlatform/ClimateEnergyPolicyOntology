@@ -1109,6 +1109,7 @@
         <obo:IAO_0000115 xml:lang="en">Institutional creation is a regulatory instrument that creates an institution.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">institutional creation</rdfs:label>
+        <AnnotationVocabulary:usageNote xml:lang="en">Each instance of &quot;institutional creation&quot; should also specify what type of institution was created.</AnnotationVocabulary:usageNote>
     </owl:Class>
     
 
