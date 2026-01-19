@@ -687,6 +687,12 @@
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010078">
         <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A greenhouse gas emissions trading scheme is a trading scheme wherein governments issue tradable emissions certificates, often combined with a fixed emissions cap (overall or set on specific actors), thereby setting economic incentives to reduce emissions.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">GHG emissions trading scheme</obo:IAO_0000118>
         <obo:IAO_0000118>carbon markets</obo:IAO_0000118>
@@ -700,6 +706,12 @@
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010079">
         <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A white certificate trading scheme is a trading scheme where the government has established a quota for the generation of tradeable energy savings certificates produced by energy efficiency activities OR reduced energy consumption measured against a baseline; these can be traded to incentivize emissions reductions.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">white certificate trading scheme</rdfs:label>
@@ -711,6 +723,12 @@
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010080">
         <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A green certificate trading scheme is a trading scheme where producers of renewable electricity receive tradeable certificates for each unit of electricity generated. These certificates can then be sold separately from the electricity itself, typically to energy suppliers who are obligated via a quota to source a certain share of their electricity from renewables. This creates a market for certificates, providing a financial incentive for renewable energy investment and production.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">green certificate trading scheme</rdfs:label>
@@ -722,6 +740,12 @@
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010081">
         <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">Clean Development Mechanism</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An offsetting scheme is a trading scheme where mitigation activities can calculate their impact against a baseline to obtain credits which can be sold for offsetting purposes such as baseline-and-credit schemes. This differs from an emissions trading scheme in that it does not have a cap, and can avoid emissions rather than reducing them.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">offsetting scheme</rdfs:label>
