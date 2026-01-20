@@ -563,13 +563,7 @@
     <!-- http://purl.org/cepo/ontology#cepo_00010066 -->
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010066">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010037"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010182"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010202"/>
         <obo:IAO_0000115 xml:lang="en">An auction with market premium is a market premium granted in a bidding competition or auction, wherein tendered capacity includes additional support through a mechanism such as a feed-in tariff, feed-in premium, or contract for difference.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">auction with market premium</rdfs:label>
     </owl:Class>
@@ -1905,12 +1899,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010155"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An auction with feed-in premium is an auction where participants compete for a fixed feed-in premium.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">auction with FIP</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">auction with feed-in premium</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An auction with fixed feed-in premium is an auction where participants compete for a fixed feed-in premium.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">auction with fixed FIP</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">auction with fixed feed-in premium</rdfs:label>
     </owl:Class>
     
 
@@ -1935,10 +1929,18 @@
     <!-- http://purl.org/cepo/ontology/cepo_00010198 -->
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010198">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
-        <obo:IAO_0000115 xml:lang="en">An auction with one-sided sliding feed-in premium is an auction where participants compete for a one-sided sliding feed-in premium.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010203"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An auction with floating feed-in premium with floor price is an auction where participants compete for a floating (alternatively called sliding) feed-in premium with floor price (alternatively called one-sided).</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">auction with 1-sided sliding FIP</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">auction with one-sided sliding feed-in premium</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">auction with one-sided floating feed-in premium</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">auction with one-sided sliding feed-in premium</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">auction with floating feed-in premium with floor price</rdfs:label>
     </owl:Class>
     
 
@@ -1946,10 +1948,18 @@
     <!-- http://purl.org/cepo/ontology/cepo_00010199 -->
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010199">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
-        <obo:IAO_0000115 xml:lang="en">An auction with two-sided sliding feed-in premium is an auction where partiicpants compete for a two-sided sliding feed-in premium.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010203"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An auction with symmetrical floating feed-in premium is an auction where participants compete for a symmetrical (alternatively called two-sided) floating (alternatively called sliding) feed-in premium.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">auction with 2-sided sliding FIP</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">auction with two-sided sliding feed-in premium</rdfs:label>
+        <obo:IAO_0000118>auction with two-sided floating feed-in premium</obo:IAO_0000118>
+        <obo:IAO_0000118>auction with two-sided sliding feed-in premium</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">auction with symmetrical floating feed-in premium</rdfs:label>
     </owl:Class>
     
 
@@ -1957,7 +1967,7 @@
     <!-- http://purl.org/cepo/ontology/cepo_00010200 -->
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010200">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010202"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1973,9 +1983,38 @@
     <!-- http://purl.org/cepo/ontology/cepo_00010201 -->
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010201">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
-        <obo:IAO_0000115 xml:lang="en">An auction with zero subsidy is an auction where participants compete for the right to develop a project without receiving monetary support.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010202"/>
+        <obo:IAO_0000115 xml:lang="en">An auction with zero subsidy is an auction where participants compete for the right to develop a project without receiving monetary support (but may receive non-monetary benefits such as land access or interconnections).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">auction with zero subsidy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010202 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010202">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010037"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An auction is an economic instrument that allocates resources based on a bidding competition. These resources may be financial (for example, an auction with a feed-in tariff) or other resources such as access to land.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">auction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010203 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010203">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
+        <obo:IAO_0000115 xml:lang="en">An auction with floating feed-in premium is an auction where participants compete for a floating (alternatively called sliding) feed-in premium.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">auction with floating FIP</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">auction with sliding FIP</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">auction with sliding feed-in premium</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">auction with floating feed-in premium</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
