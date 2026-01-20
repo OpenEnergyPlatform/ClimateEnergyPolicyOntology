@@ -1877,9 +1877,10 @@
     <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010194">
         <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010116"/>
         <obo:IAO_0000112 xml:lang="en">Coal may no longer be mined or burned in a certain country.</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">A phase out is a ban on technologies, substances and practices which aims to catalyze their decline to meet environmental sustainability objectives.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A phase-out is a ban on technologies, substances and practices which aims to catalyze their decline to meet environmental sustainability objectives.</obo:IAO_0000115>
         <dc:source xml:lang="en">https://climatepolicyradar.wikibase.cloud/wiki/Item:Q1414</dc:source>
-        <rdfs:label xml:lang="en">phase out</rdfs:label>
+        <rdfs:comment xml:lang="en">&quot;Phase-out&quot; differs from the similar term &quot;phase-down&quot; in that its aim is elimination and not just reduction of the banned entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">phase-out</rdfs:label>
     </owl:Class>
     
 
@@ -1889,9 +1890,10 @@
     <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010195">
         <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010116"/>
         <obo:IAO_0000112 xml:lang="en">Coal power stations may only operate at 35% capacity or less.</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">A phase down is a ban on certain amounts of harmful technoloies, substances or practices; it differs from a phase-out in that its aim is reduction and not elimination.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A phase-down is a ban on certain amounts of technoloies, substances or practices which aims to reduce the usage of the banned entity to meet environmental sustainability objectives.</obo:IAO_0000115>
         <dc:source xml:lang="en">https://climatepolicyradar.wikibase.cloud/wiki/Item:Q1415</dc:source>
-        <rdfs:label xml:lang="en">phase down</rdfs:label>
+        <rdfs:comment xml:lang="en">&quot;Phase-down&quot; differs from the similar term &quot;phase-out&quot; in that its aim is reduction and not elimination of the banned entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">phase-down</rdfs:label>
     </owl:Class>
     
 
