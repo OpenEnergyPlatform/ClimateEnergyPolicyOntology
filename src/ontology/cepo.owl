@@ -893,6 +893,11 @@
         <obo:IAO_0000115 xml:lang="en">A performance standard is a standard that sets required levels of performance (in terms of emissions, efficiency, etc.) but actors are free to choose the technologies and methods for how they will do so.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from IPCC</dc:source>
         <rdfs:label xml:lang="en">performance standard</rdfs:label>
+        <AnnotationVocabulary:usageNote xml:lang="en">Technology standards and performance standards are often seen as opposites - either one requires the use of a specific technology, or one sets some threshold for performance. In some cases, standards may be phrased in such a way that they are not exclusively a technology or performance standard. For example:
+
+&quot;storage installation requirement&quot; AND &quot;performance standard&quot;: All wind parks must have 1MW of storage.
+
+&quot;storage installation requirement&quot; AND &quot;performance standard&quot; AND &quot;technology standard&quot;: All wind parks must have 1MW of battery storage.</AnnotationVocabulary:usageNote>
     </owl:Class>
     
 
@@ -986,6 +991,11 @@
         <obo:IAO_0000115 xml:lang="en">A technology standard is a standard that requires a specific technology, process, or product. They typically take one of four forms: requirements for specific pollution abatement technologies; requirements for specific production methods; requirements for specific goods such as energy efficient appliances; or phase-out mandates.</obo:IAO_0000115>
         <dc:source xml:lang="en">IPCC</dc:source>
         <rdfs:label xml:lang="en">technology standard</rdfs:label>
+        <AnnotationVocabulary:usageNote xml:lang="en">Technology standards and performance standards are often seen as opposites - either one requires the use of a specific technology, or one sets some threshold for performance. In some cases, standards may be phrased in such a way that they are not exclusively a technology or performance standard. For example:
+
+&quot;storage installation requirement&quot; AND &quot;performance standard&quot;: All wind parks must have 1MW of storage.
+
+&quot;storage installation requirement&quot; AND &quot;performance standard&quot; AND &quot;technology standard&quot;: All wind parks must have 1MW of battery storage.</AnnotationVocabulary:usageNote>
     </owl:Class>
     
 
