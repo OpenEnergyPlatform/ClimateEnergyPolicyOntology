@@ -15,24 +15,14 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:schema="http://schema.org/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:AnnotationVocabulary="https://www.omg.org/spec/Commons/AnnotationVocabulary/"
      xmlns:AnnotationVocabulary1="https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/"
      xmlns:IdentifiersAndIndices="https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/">
-    <owl:Ontology rdf:about="http://purl.org/cepo/ontology">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2022-11-07/iao.owl"/>
         <owl:imports rdf:resource="https://www.omg.org/spec/Commons/20221101/ContextualDesignators/"/>
-        <dc:contributor>(0001) Amanda Wein (amanda-wein)</dc:contributor>
-        <dc:contributor>(0002) Silvia Weko (@silviaweko)</dc:contributor>
-        <dc:contributor>(0003) Mirjam Stappel (stap-m)</dc:contributor>
-        <dc:contributor>(0004) Ludwig Hülk (@Ludee)</dc:contributor>
-        <terms:abstract>The Climate and Energy Policy Ontology (CEPO) is a common set of definitions and relationships which can be used to structure information about climate and energy policy instruments.</terms:abstract>
-        <terms:license>http://creativecommons.org/publicdomain/zero/1.0/</terms:license>
-        <terms:title>Climate and Energy Policy Ontology</terms:title>
-        <schema:citation>Cite as: Climate and Energy Policy Ontology v0.1.0</schema:citation>
-        <owl:versionInfo>0.1.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -51,18 +41,6 @@
     <!-- http://purl.obolibrary.org/obo/OMO_0003000 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0003000"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/abstract -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
-    
-
-
-    <!-- http://schema.org/citation -->
-
-    <owl:AnnotationProperty rdf:about="http://schema.org/citation"/>
     
 
 
@@ -106,20 +84,20 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010001 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000001 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010001">
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010002"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010012"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A public policy is a plan specification that is an effort made by a government to alter aspects of its own or social behaviour in order to carry out some end or purpose and is comprised of complex arrangements of policy goals and policy means.</obo:IAO_0000115>
@@ -129,14 +107,14 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010002 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000002 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010002">
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010001"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A policy goal is an objective specification for a public policy wherein a government determines operationalizable policy objectives including specific policy targets. The aim of a policy goal is to guide decision-making.</obo:IAO_0000115>
@@ -146,21 +124,21 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010003 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000003 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010003">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010002"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000003">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000002"/>
         <obo:IAO_0000115 xml:lang="en">A target is a policy goal that contains statements about a desired future state of a system that an organization/association/municipaliy/region/country commits to in either a legally binding or non-legally binding way.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">target</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010004 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000004 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010004">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010003"/>
-        <owl:disjointWith rdf:resource="http://purl.org/cepo/ontology#cepo_00010005"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000004">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000003"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000005"/>
         <obo:IAO_0000115 xml:lang="en">A binding target is a target that is legally enforceable.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">binding target</rdfs:label>
@@ -168,10 +146,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010005 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000005 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010005">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010003"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000005">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000003"/>
         <obo:IAO_0000115 xml:lang="en">A non-binding target is a target that is not legally enforceable.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">non-binding target</rdfs:label>
@@ -179,23 +157,23 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010006 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000006 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010006">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010003"/>
-        <owl:disjointWith rdf:resource="http://purl.org/cepo/ontology#cepo_00010008"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000006">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000003"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000008"/>
         <obo:IAO_0000115 xml:lang="en">A sectoral target is a target for a specific sector.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">sectoral target</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010007 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000007 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010007">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010003"/>
-        <owl:disjointWith rdf:resource="http://purl.org/cepo/ontology#cepo_00010014"/>
-        <owl:disjointWith rdf:resource="http://purl.org/cepo/ontology#cepo_00010016"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000007">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000003"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000014"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000016"/>
         <obo:IAO_0000112 xml:lang="en">NDC commitment, net-zero GHG emission, and climate-neutrality targets</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A climate target is a target for greenhouse gas (GHG) emission reduction within a defined timeframe.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
@@ -204,10 +182,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010008 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000008 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010008">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010003"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000008">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000003"/>
         <obo:IAO_0000115 xml:lang="en">An economy-wide target is a target for a whole economy.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">economy-wide target</rdfs:label>
@@ -215,14 +193,14 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010012 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000012 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010012">
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010001"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A policy instrument is an action specification by which a government aims to achieve its objectives.</obo:IAO_0000115>
@@ -232,10 +210,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010013 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000013 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010013">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010012"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000013">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000012"/>
         <obo:IAO_0000115 xml:lang="en">An information instrument is a policy instrument that aims to provide knowledge to persons and/or institutions.</obo:IAO_0000115>
         <dc:source xml:lang="en">equivalent to CPR Information / Hood Nodality; CPDB &quot;Information provision&quot;; in Vedung &quot;A fundamental policy instrument involving measures undertaken to influence addressees through the transfer of knowledge, communication of reasoned argument, persuasion, advice&quot; (Public Policy and Program evaluation, p. 300)</dc:source>
         <rdfs:label xml:lang="en">information instrument</rdfs:label>
@@ -243,11 +221,11 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010014 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000014 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010014">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010003"/>
-        <owl:disjointWith rdf:resource="http://purl.org/cepo/ontology#cepo_00010016"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000014">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000003"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000016"/>
         <obo:IAO_0000112 xml:lang="en">adoption of renewable energy, adoption of nuclear energy, etc.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A technology adoption target is a target for the adoption of a specific energy technology within a defined timeframe.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">technology adoption target</rdfs:label>
@@ -255,10 +233,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010016 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000016 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010016">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010003"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000016">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000003"/>
         <obo:IAO_0000115 xml:lang="en">An energy efficiency target is a target for efficient energy use within a defined timeframe.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">energy efficiency target</rdfs:label>
@@ -266,10 +244,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010037 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000037 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010037">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010012"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000037">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000012"/>
         <obo:IAO_0000115 xml:lang="en">An economic instrument is a policy instrument that hands out or takes away material resources while the addressees are not obligated to take the measures involved.</obo:IAO_0000115>
         <dc:source xml:lang="en">Vedung</dc:source>
         <rdfs:label xml:lang="en">economic instrument</rdfs:label>
@@ -277,20 +255,20 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010038 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000038 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010038">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010013"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000038">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000013"/>
         <obo:IAO_0000115 xml:lang="en">An education instrument is an information instrument that aims at teaching skills to specific groups of people.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">education instrument</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010039 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000039 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010039">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010013"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000039">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000013"/>
         <obo:IAO_0000112 xml:lang="en">The Irish government published advertisements across media platforms to encourage energy savings and provide advice on energy-saving measures. https://www.iea.org/policies/15459-a-nationwide-campaign-to-encourage-energy-efficiency-and-highlight-available-supports</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A public information campaign is an information instrument where a government directs and sponsors efforts to communicate information to large numbers of citizens.</obo:IAO_0000115>
         <dc:source xml:lang="en">Bemelmans-Vedec, Rist and Vedung, p. 12</dc:source>
@@ -299,10 +277,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010040 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000040 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010040">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010038"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000040">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000038"/>
         <obo:IAO_0000112 xml:lang="en">experts employed by the German government provide advice on building efficiency  (&quot;Energieberatung&quot;: https://www.energiewechsel.de/KAENEF/Redaktion/DE/Dossier/energieberatung-uebersicht.html)</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An implementation aid is an education instrument that provides assistance to actors engaging in desired activities.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
@@ -311,10 +289,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010041 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000041 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010041">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010038"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000041">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000038"/>
         <obo:IAO_0000112 xml:lang="en">curricula and learning objectives focused on climate change, see : https://unesdoc.unesco.org/ark:/48223/pf0000379591</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A change to public education is an education instrument which changes what is taught in public schooling to focus on promoting desired behavior.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">change to public education</rdfs:label>
@@ -322,10 +300,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010042 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000042 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010042">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010038"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000042">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000038"/>
         <obo:IAO_0000115 xml:lang="en">A training program is an education instrument that promotes learning for professionals to obtain, improve or retain skills, knowledge, tols, equipment or other resources to do their work competently.</obo:IAO_0000115>
         <dc:source xml:lang="en">adapted from CPDB, professional training and qualification; part of definition from EEA: https://climate-adapt.eea.europa.eu/en/metadata/adaptation-options/capacity-building-on-climate-change-adaptation</dc:source>
         <rdfs:label xml:lang="en">training program</rdfs:label>
@@ -333,10 +311,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010043 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000043 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010043">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010042"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000043">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000042"/>
         <obo:IAO_0000112 xml:lang="en">https://www.iea.org/policies/17844-cooperative-training-at-coal-sites-in-north-rhine-westphalia</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">Vocational training is a training program that prepares people with specific skills for technical or trades work.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">vocational training</rdfs:label>
@@ -344,20 +322,20 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010045 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000045 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010045">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010037"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000045">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000037"/>
         <obo:IAO_0000115 xml:lang="en">A levy is an economic instrument that consists of a compulsory financial charge imposed on an agent or institution by a governmental organization.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">levy</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010046 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000046 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010046">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010148"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000046">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000148"/>
         <obo:IAO_0000115 xml:lang="en">A carbon tax is a tax on carbon or other greenhouse gas emissions, measured in CO2 equivalent values.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">GHG emissions tax</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">greenhouse gas emissions tax</obo:IAO_0000118>
@@ -367,10 +345,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010047 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000047 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010047">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010148"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000047">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000148"/>
         <obo:IAO_0000115 xml:lang="en">An energy tax is a tax imposed on the production, sale, or consumption of energy sources, including fuels and electrcity, typically calculated based on the quantity or type of energy used.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">energy tax</rdfs:label>
@@ -378,10 +356,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010048 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000048 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010048">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010149"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000048">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000149"/>
         <obo:IAO_0000112 xml:lang="en">higher vehicle registration fees for high-emissions vehicles</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An increased charge is a fee imposed by the government on certain undesirable goods or behaviors.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from &quot;user charges&quot; in CPDB: https://climatepolicydatabase.org/</dc:source>
@@ -390,14 +368,14 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010049 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000049 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010049">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010037"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000049">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000037"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010149"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000149"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A feebate is an economic instrument that combines a fee and a rebate system to influence behavior. Actors whose activities exceed a defined threshold pay a surcharge (&quot;malus&quot;), while those who perfomr better than the threshold receive a financial reward (&quot;bonus&quot;). A feebate is typically designed to be revenue-neutral.</obo:IAO_0000115>
@@ -408,10 +386,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010050 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000050 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010050">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010051"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000050">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000051"/>
         <obo:IAO_0000115 xml:lang="en">A removal of fossil fuel subsidies is a financial incentive which abolishes or reduces existing subsidies for fossil fuels, either at the production or consumption ends.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">removal of fossil fuel subsidies</rdfs:label>
@@ -419,24 +397,24 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010051 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000051 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010051">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010037"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000051">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000037"/>
         <obo:IAO_0000115 xml:lang="en">A financial incentive is an economic policy instrument used by the state to encourage targeted products or actiities by provising economic support to selected actors. Beneficiaries typically receive this support through mechanisms such as soft loans, grants, market premiums, and tax reductions.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">financial incentive</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010052 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000052 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010052">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010051"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000052">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010149"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000149"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">the German 9 Euro ticket to promote using public transport</obo:IAO_0000112>
@@ -447,10 +425,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010053 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000053 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010053">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010151"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000053">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000151"/>
         <obo:IAO_0000112 xml:lang="en">A company that is not yet profitable can apply to receive a refund on VAT for renewable energy equipment.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A tax rebate is a tax incentive where governments return taxes already paid to correct overpayment.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">tax refund</obo:IAO_0000118>
@@ -459,10 +437,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010054 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000054 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010054">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010151"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000054">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000151"/>
         <obo:IAO_0000112 xml:lang="en">Income from feed-in tariffs is not taxable. NGOs do not pay taxes.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A tax exemption is a tax incentive where the government does not count certain income or transactions as taxable, or declares certain entities to be fully tax-exempt.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Steuerfreie Einnahmen</obo:IAO_0000118>
@@ -473,10 +451,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010055 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000055 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010055">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010051"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000055">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000051"/>
         <obo:IAO_0000115 xml:lang="en">A retirement premium is a financial incentive where the government provides support for the early retirement of emissions-intensive or inefficient assets.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">retirement premium</rdfs:label>
@@ -484,20 +462,20 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010056 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000056 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010056">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010051"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000056">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000051"/>
         <obo:IAO_0000115 xml:lang="en">A market premium is a financial incentive that ensures additional remuneration on top of market prices, or a guaranteed renumeration by paying to the producing agent the difference between a guaranteed return on a product and the monetary price for which the product is traded on the market.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">market premium</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010057 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000057 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010057">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010153"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000057">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000153"/>
         <obo:IAO_0000115 xml:lang="en">An accelerated depreciation rule is a tax deduction where the government allows sustainable projects to depreciate (part of) the investment in the early years of the asset&apos;s life, effectively reducing their taxable income during these years.</obo:IAO_0000115>
         <dc:source xml:lang="en">Hafner and Lilliestam, 2019</dc:source>
         <rdfs:label xml:lang="en">accelerated depreciation rule</rdfs:label>
@@ -505,10 +483,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010060 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000060 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010060">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010055"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000060">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000055"/>
         <obo:IAO_0000112 xml:lang="en">fossil fuel vehicle swap or scrappage schemes</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A product retirement premium is a retirement premium that applies to emissions-intensive products used by consumers.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">product retirement premium</rdfs:label>
@@ -516,10 +494,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010061 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000061 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010061">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010055"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000061">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000055"/>
         <obo:IAO_0000112 xml:lang="en">payments for early closure of coal-fired power plants</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An asset retirement premium is a premium for the early closure of certain assets.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">asset retirement premium</rdfs:label>
@@ -527,10 +505,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010062 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000062 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010062">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010056"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000062">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000056"/>
         <obo:IAO_0000112 xml:lang="en">payments for larve-scale battery installations</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A capacity premium is a market premium that guarantees remuneration for reserving electric capacity to be available for unexpected events.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">capacity premium</rdfs:label>
@@ -538,10 +516,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010064 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000064 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010064">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010056"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000064">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000056"/>
         <obo:IAO_0000118 xml:lang="en">FIT</obo:IAO_0000118>
         <dc:description xml:lang="en">A feed-in tariff is a market premium where energy producers are paid fixed prices for every unit of energy fed into the grid for a number of years in the future.</dc:description>
         <rdfs:label xml:lang="en">feed-in tariff</rdfs:label>
@@ -549,10 +527,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010065 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000065 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010065">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010056"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000065">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000056"/>
         <obo:IAO_0000115 xml:lang="en">A feed-in premium is a market premium where energy generators are paid a premium on top of the price they achieve in the electricity market, for electricity fed into the grid for a number of years in the future.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">FIP</obo:IAO_0000118>
         <rdfs:label xml:lang="en">feed-in premium</rdfs:label>
@@ -560,20 +538,20 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010066 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000066 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010066">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010202"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000066">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000056"/>
         <obo:IAO_0000115 xml:lang="en">An auction with market premium is a market premium granted in a bidding competition or auction, wherein tendered capacity includes additional support through a mechanism such as a feed-in tariff, feed-in premium, or contract for difference.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">auction with market premium</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010068 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000068 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010068">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010051"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000068">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000051"/>
         <obo:IAO_0000115 xml:lang="en">A grant is a financial incentive where the government provides non-repayable funding for specific purposes.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">grant</rdfs:label>
@@ -581,10 +559,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010069 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000069 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010069">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010068"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000069">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000068"/>
         <obo:IAO_0000115 xml:lang="en">A purchase grant is a grant to support the acquisition of specific products. It reduces the upfront cost for buyers, making the targeted product more affordable and attractive.</obo:IAO_0000115>
         <obo:IAO_0000118>purchase subsidy</obo:IAO_0000118>
         <rdfs:label xml:lang="en">purchase grant</rdfs:label>
@@ -592,10 +570,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010070 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000070 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010070">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010162"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000070">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000162"/>
         <obo:IAO_0000112 xml:lang="en">low-interest loan for a company to build charging infrastructure, or for a person to purchase an EV</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A soft loan is a loan provided by the government at preferential conditions to lower financing costs.</obo:IAO_0000115>
         <dc:source xml:lang="en">Hafner &amp; Lilliestam 2019</dc:source>
@@ -604,14 +582,14 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010071 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000071 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010071">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010051"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000071">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010162"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000162"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A loan guarantee is a financial incentive where the government guarantees to pay the loan should the project go bankrupt, lowering the default risk and therefore the required returns on debt and/or equity.</obo:IAO_0000115>
@@ -621,20 +599,20 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010072 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000072 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010072">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010037"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000072">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000037"/>
         <obo:IAO_0000115 xml:lang="en">A direct investment is an economic instrument in which the government supports targeted activities or products by directly purchasing, investing in, or producing them through public agencies, institutions, or utilities.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">direct investment</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010074 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000074 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010074">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010163"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000074">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000163"/>
         <obo:IAO_0000115 xml:lang="en">A direct infrastructure investment is a direct asset investment in infrastructure projects.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">direct infrastructure investment</rdfs:label>
@@ -642,10 +620,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010075 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000075 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010075">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010072"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000075">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000072"/>
         <obo:IAO_0000115 xml:lang="en">Direct research and development funding is a direct investment by the government in public research institutions or projects.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">direct R&amp;D funding</obo:IAO_0000118>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
@@ -654,10 +632,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010076 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000076 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010076">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010072"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000076">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000072"/>
         <obo:IAO_0000112 xml:lang="en">power purchase agreements if the offtaker is a state entity; purchase of a fleet of electric buses by a city for public transit</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">Green public procurement is a direct investment where a government purchases a green good or service directly.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
@@ -666,10 +644,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010077 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000077 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010077">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010037"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000077">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000037"/>
         <obo:IAO_0000115 xml:lang="en">A trading scheme is an economic instrument in which a standard is set for environmental performance, and then performance certificates or credits can be traded in a marketplace to incentivize or discourage targeted activities.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">trading scheme</rdfs:label>
@@ -677,16 +655,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010078 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000078 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010078">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010077"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010105"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000078">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000077"/>
         <obo:IAO_0000115 xml:lang="en">A greenhouse gas emissions trading scheme is a trading scheme wherein governments issue tradable emissions certificates, often combined with a fixed emissions cap (overall or set on specific actors), thereby setting economic incentives to reduce emissions.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">GHG emissions trading scheme</obo:IAO_0000118>
         <obo:IAO_0000118>carbon markets</obo:IAO_0000118>
@@ -696,16 +668,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010079 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000079 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010079">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010077"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010112"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000079">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000077"/>
         <obo:IAO_0000115 xml:lang="en">A white certificate trading scheme is a trading scheme where the government has established a quota for the generation of tradeable energy savings certificates produced by energy efficiency activities OR reduced energy consumption measured against a baseline; these can be traded to incentivize emissions reductions.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">white certificate trading scheme</rdfs:label>
@@ -713,16 +679,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010080 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000080 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010080">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010077"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010112"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000080">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000077"/>
         <obo:IAO_0000115 xml:lang="en">A green certificate trading scheme is a trading scheme where producers of renewable electricity receive tradeable certificates for each unit of electricity generated. These certificates can then be sold separately from the electricity itself, typically to energy suppliers who are obligated via a quota to source a certain share of their electricity from renewables. This creates a market for certificates, providing a financial incentive for renewable energy investment and production.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">green certificate trading scheme</rdfs:label>
@@ -730,16 +690,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010081 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000081 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010081">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010077"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010119"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000081">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000077"/>
         <obo:IAO_0000112 xml:lang="en">Clean Development Mechanism</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An offsetting scheme is a trading scheme where mitigation activities can calculate their impact against a baseline to obtain credits which can be sold for offsetting purposes such as baseline-and-credit schemes. This differs from an emissions trading scheme in that it does not have a cap, and can avoid emissions rather than reducing them.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">offsetting scheme</rdfs:label>
@@ -747,10 +701,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010082 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000082 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010082">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010012"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000082">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000012"/>
         <obo:IAO_0000115 xml:lang="en">A regulatory instrument is a policy instrument that is a measure taken by governments which mandate receivers to act in accordance with what is ordered in formulated rules and directives. Such rules prescribe the abandonment or adoption of desired processes, technologies, products or results. Failure to comply may incur financial penalties and/or legal sanctions.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from Vedung and IPCC.</dc:source>
         <rdfs:label xml:lang="en">regulatory instrument</rdfs:label>
@@ -758,30 +712,30 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010083 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000083 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010083">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010082"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000083">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000082"/>
         <obo:IAO_0000115 xml:lang="en">A zoning and spatial planning regulation is a regulatory instrument that determines where objects can exist in space: either where something can be built/used, or what kinds of things can be built in specific geographic locations.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">zoning and spatial planning regulation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010084 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000084 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010084">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010083"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000084">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000083"/>
         <obo:IAO_0000115 xml:lang="en">A location regulation is a zoning and spatial planning regulation that determines where objects or related infrastructure can be built or used.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">location regulation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010086 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000086 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010086">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010084"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000086">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000084"/>
         <obo:IAO_0000112 xml:lang="en">the distances between a wind turbine and a residential building, railroads, transmission line, and bodies of water</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A setback distance is a location regulation that sets a minimum distance between objects.</obo:IAO_0000115>
         <dc:source xml:lang="en">https://www.nrel.gov/news/program/2022/nrel-releases-comprehensive-databases-of-local-ordinances-for-siting-wind-solar-energy-projects.html</dc:source>
@@ -790,10 +744,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010087 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000087 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010087">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010084"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000087">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000084"/>
         <obo:IAO_0000112 xml:lang="en">a regulation establishing an exclusion zone where wind turbines may not be built due to legal, environmental or safety concerns</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An exclusion area regulation is a location regulation that excludes a certain area from being eligible for objects to be built or entered.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from Bucha and Ramirez Camargo, “Deliverable D2.10 Data on Regulatory and Socio-Economic Conditions and Impacts (b).” Dec. 2024</dc:source>
@@ -802,14 +756,14 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010090 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000090 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010090">
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000009"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://openenergy-platform.org/ontology/oeo/OEO_00140093"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010087"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000087"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A low emissions zone is a two-dimensional spatial region where vehicles with higher emissions are prohibited from entering due to an exclusion area regulation.</obo:IAO_0000115>
@@ -819,20 +773,20 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010091 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000091 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010091">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010083"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000091">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000083"/>
         <obo:IAO_0000115 xml:lang="en">A characteristic regulation is a zoning and spatial planning regulation that determines what kinds of objects or related infrastructure can be built or used in specific locations.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">characteristic regulation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010093 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000093 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010093">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010091"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000093">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000091"/>
         <obo:IAO_0000112 xml:lang="en">a regulation establishing noise limits for wind turbines in residential areas</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A noise limit is a characteristic regulation that sets the maximum amount of noise output allowable within the area where the regulation applies.</obo:IAO_0000115>
         <dc:source xml:lang="en">adapted from Bucha and Ramirez Camargo, “Deliverable D2.10 Data on Regulatory and Socio-Economic Conditions and Impacts (b).” Dec. 2024.</dc:source>
@@ -841,10 +795,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010094 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000094 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010094">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010091"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000094">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000091"/>
         <obo:IAO_0000112 xml:lang="en">a regulation establishing a shadow flicker limit for wind turbines</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A shadow flicker limit is a characteristic regulation that sets the maximum effect of the sun (low on the horizon) shining through the rotating plades of a wind turbine, casting a moving shadow.</obo:IAO_0000115>
         <dc:source xml:lang="en">https://windexchange.energy.gov/projects/shadow-flicker</dc:source>
@@ -853,10 +807,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010095 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000095 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010095">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010091"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000095">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000091"/>
         <obo:IAO_0000112 xml:lang="en">height limitation for a wind turbine</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A height restriction is a characteristic regulation that sets a maximum height for any energy infrastructure objects.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">height restriction</rdfs:label>
@@ -864,10 +818,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010096 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000096 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010096">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010091"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000096">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000091"/>
         <obo:IAO_0000112 xml:lang="en">a rotor size limitation on a wind turbine</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A rotor size restriction is a characteristic regulation that sets a specific limit on the rotor size for any energy infrastructure object.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">rotor size restriction</rdfs:label>
@@ -875,10 +829,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010100 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000100 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010100">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010082"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000100">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000082"/>
         <obo:IAO_0000115 xml:lang="en">A standard is a regulatory instrument that defines requirements for products, production processes, services, or test methods.</obo:IAO_0000115>
         <dc:source xml:lang="en">EU, on European standards - https://single-market-economy.ec.europa.eu/single-market/european-standards_en</dc:source>
         <rdfs:label xml:lang="en">standard</rdfs:label>
@@ -886,26 +840,21 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010101 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000101 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010101">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010100"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000101">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000100"/>
         <obo:IAO_0000115 xml:lang="en">A performance standard is a standard that sets required levels of performance (in terms of emissions, efficiency, etc.) but actors are free to choose the technologies and methods for how they will do so.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from IPCC</dc:source>
         <rdfs:label xml:lang="en">performance standard</rdfs:label>
-        <AnnotationVocabulary:usageNote xml:lang="en">Technology standards and performance standards are often seen as opposites - either one requires the use of a specific technology, or one sets some threshold for performance. In some cases, standards may be phrased in such a way that they are not exclusively a technology or performance standard. For example:
-
-&quot;storage installation requirement&quot; AND &quot;performance standard&quot;: All wind parks must have 1MW of storage.
-
-&quot;storage installation requirement&quot; AND &quot;performance standard&quot; AND &quot;technology standard&quot;: All wind parks must have 1MW of battery storage.</AnnotationVocabulary:usageNote>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010102 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000102 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010102">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010105"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000102">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000105"/>
         <obo:IAO_0000115 xml:lang="en">An industrial air pollution standard is an emissions cap that is mandatory and regulates the emission of polluting substances by industry actors, including but not limited to greenhouse gases.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">industrial air pollution standard</rdfs:label>
@@ -913,10 +862,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010104 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000104 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010104">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010105"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000104">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000105"/>
         <obo:IAO_0000115 xml:lang="en">A sectoral emissions cap is an emissions cap that sets out the maximum amount for how much actors are allowed to emit or pollute. May be a refulatory element of a trading system.</obo:IAO_0000115>
         <dc:source xml:lang="en">https://climate.ec.europa.eu/eu-action/eu-emissions-trading-system-eu-ets/emissions-cap-and-allowances_en</dc:source>
         <rdfs:label xml:lang="en">sectoral emissions cap</rdfs:label>
@@ -924,10 +873,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010105 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000105 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010105">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010101"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000105">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000101"/>
         <obo:IAO_0000115 xml:lang="en">An emissions cap is a performance standard that sets a cap on emissions or pollution, either total per actor/sector, or per unit of output.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">emissions standard</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">pollution cap</obo:IAO_0000118>
@@ -938,20 +887,20 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010106 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000106 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010106">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010105"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000106">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000105"/>
         <obo:IAO_0000115 xml:lang="en">A building emissions standard is an emissions cap that regulates the allowable levels of pollution or CO2 emissions associated with the building, such as heating systems.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">building emissions standard</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010108 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000108 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010108">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010168"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000108">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000168"/>
         <obo:IAO_0000115 xml:lang="en">A vehicle air pollution standard is a product emissions standard for vehicles, for the maximum emissions of substances such as greenhouse gas emissions, hydrocarbons, oxides of nitrogen and particulate matter they can emit.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">vehicle emissions standard</obo:IAO_0000118>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
@@ -960,10 +909,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010109 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000109 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010109">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010171"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000109">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000171"/>
         <obo:IAO_0000115 xml:lang="en">A vehicle fuel-economy standard is a product efficiency standard for vehicles that determines a minimum fuel-efficiency threshold.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">vehicle efficiency standard</obo:IAO_0000118>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
@@ -972,10 +921,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010112 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000112 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010112">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010100"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000112">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000100"/>
         <obo:IAO_0000112 xml:lang="en">minimum shares of zero-emission vehicles or of renewable electricity</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A quota is a standard wherein a quantified obligation is imposed on some actor to acquire, use, install etc. a certain quota of a clean good or service. These may or may not be tied to trading schemes like green or white certificate schemes. These may be either technology or performance standards.</obo:IAO_0000115>
         <dc:source xml:lang="en">adapted from European Commission, Bertoldi and Rezessy 2006, https://publications.jrc.ec.europa.eu/repository/bitstream/JRC32865/2865-white_cert_report_final.pdf</dc:source>
@@ -984,26 +933,21 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010114 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000114 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010114">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010100"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000114">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000100"/>
         <obo:IAO_0000115 xml:lang="en">A technology standard is a standard that requires a specific technology, process, or product. They typically take one of four forms: requirements for specific pollution abatement technologies; requirements for specific production methods; requirements for specific goods such as energy efficient appliances; or phase-out mandates.</obo:IAO_0000115>
         <dc:source xml:lang="en">IPCC</dc:source>
         <rdfs:label xml:lang="en">technology standard</rdfs:label>
-        <AnnotationVocabulary:usageNote xml:lang="en">Technology standards and performance standards are often seen as opposites - either one requires the use of a specific technology, or one sets some threshold for performance. In some cases, standards may be phrased in such a way that they are not exclusively a technology or performance standard. For example:
-
-&quot;storage installation requirement&quot; AND &quot;performance standard&quot;: All wind parks must have 1MW of storage.
-
-&quot;storage installation requirement&quot; AND &quot;performance standard&quot; AND &quot;technology standard&quot;: All wind parks must have 1MW of battery storage.</AnnotationVocabulary:usageNote>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010115 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000115 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010115">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010178"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000115">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000178"/>
         <obo:IAO_0000115 xml:lang="en">A smart meter installation requirement is an installation requirement that mandates the installation of smart meters.</obo:IAO_0000115>
         <dc:source xml:lang="en">https://www.smart-energy.com/regional-news/europe-uk/germany-mandates-smart-metering-from-2025</dc:source>
         <rdfs:label xml:lang="en">smart meter installation requirement</rdfs:label>
@@ -1011,21 +955,22 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010116 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000116 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010116">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010114"/>
-        <obo:IAO_0000115 xml:lang="en">A ban is a technology standard that forbids an activity, technology or product because of its environmental harms.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000116">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000114"/>
+        <obo:IAO_0000115 xml:lang="en">A moratorium is a technology standard that forbids an activity, technology or product because of its environmental harms.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">ban</obo:IAO_0000118>
         <dc:source xml:lang="en">Adapted from CPR</dc:source>
-        <rdfs:label xml:lang="en">ban</rdfs:label>
+        <rdfs:label xml:lang="en">moratorium</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010117 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000117 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010117">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010100"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000117">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000100"/>
         <obo:IAO_0000112 xml:lang="en">government standard that any vehicles purchased by public actors must meet certain emissions thresholds</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A public procurement standard is a standard set by a government for public goods. These can be technology-specific or performance-based.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">public procurement standard</rdfs:label>
@@ -1033,10 +978,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010118 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000118 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010118">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010100"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000118">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000100"/>
         <obo:IAO_0000112 xml:lang="en">all ministry actions must comply with carbon budget ceilings. https://www.lse.ac.uk/granthaminstitute/publication/impacts-of-climate-framework-laws/</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A public sector mandate is a standard which requires public bodies decision-making to align with government targets.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">public sector mandate</rdfs:label>
@@ -1044,10 +989,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010119 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000119 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010119">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010100"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000119">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000100"/>
         <obo:IAO_0000112 xml:lang="en">rules that prohibit using offsetting as part of emissions calculations</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An offsetting rule is a standard which establishes greenhouse gas emission reductions crediting and offsetting regulations.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
@@ -1056,10 +1001,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010120 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000120 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010120">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010100"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000120">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000100"/>
         <obo:IAO_0000115 xml:lang="en">A disclosure standard is a standard that requires an actor to publicly disclose and substantiate claims on environmental impacts.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">disclosure obligation</obo:IAO_0000118>
         <rdfs:label xml:lang="en">disclosure standard</rdfs:label>
@@ -1067,10 +1012,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010121 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000121 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010121">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010120"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000121">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000120"/>
         <obo:IAO_0000112 xml:lang="en">labeling standards for building energy efficiency</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A comparison label standard is a disclosure standard which requires participation in consumer-oriented labelling schemes. These schemes provide a rating of a certain good or service against a pre-determined scale, allowing for a comparison across products.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
@@ -1079,10 +1024,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010123 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000123 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010123">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010120"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000123">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000120"/>
         <obo:IAO_0000112 xml:lang="en">EU SFDR</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A financial disclosure standard is a disclosure standard which requires companies to disclose how the transition risks from shifting to a low-carbon economy and physical climate change impacts may affect their business or asset values.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from IPCC 2022.</dc:source>
@@ -1091,10 +1036,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010124 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000124 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010124">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010120"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000124">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000120"/>
         <obo:IAO_0000112 xml:lang="en">EU CSRD</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A supply chain disclosure standard is a disclosure standard that requires firms to disclose information on the risks and opportunities arising from environmental issues, and on the impact of their activities on the environment.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">supply chain disclosure standard</rdfs:label>
@@ -1102,10 +1047,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010125 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000125 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010125">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010120"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000125">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000120"/>
         <obo:IAO_0000112 xml:lang="en">EU Green Claims Directive  https://environment.ec.europa.eu/topics/circular-economy/green-claims_en</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A green advertisement standard is a disclosure standard on companies that make claims about their environmental impact to adhere to standards which may include disclosing their assessment methodology, verification by an independent third party, and greenhouse gas offsetting.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">green advertisement standard</rdfs:label>
@@ -1113,10 +1058,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010126 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000126 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010126">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010100"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000126">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000100"/>
         <obo:IAO_0000112 xml:lang="en">French &quot;corporate vigilance&quot; law</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A due diligence obligation is a standard requiring companies to identify and address potential and actual adverse impacts in a company&apos;s operations.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">due diligence obligation</rdfs:label>
@@ -1124,10 +1069,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010127 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000127 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010127">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010126"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000127">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000126"/>
         <obo:IAO_0000112 xml:lang="en">the EU Corporate sustainability due diligence directive (CSDDD), https://www.csr-in-deutschland.de/EN/Business-Human-Rights/Supply-Chain-Act/supply-chain-act.html and https://commission.europa.eu/business-economy-euro/doing-business-eu/sustainability-due-diligence-responsible-business/corporate-sustainability-due-diligence_en</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A supply chain due diligence obligation is a due diligence obligation for companies to address risks to not only their own operations, but also their subsidiaries and business partners.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">supply chain due diligence obligation</rdfs:label>
@@ -1135,33 +1080,32 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010128 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000128 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010128">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010082"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000128">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000082"/>
         <obo:IAO_0000112 xml:lang="en">creation of a new government agency or body</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">Institutional creation is a regulatory instrument that creates an institution.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">institutional creation</rdfs:label>
-        <AnnotationVocabulary:usageNote xml:lang="en">Each instance of &quot;institutional creation&quot; should also specify what type of institution was created.</AnnotationVocabulary:usageNote>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010132 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000132 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010132">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010082"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000132">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000082"/>
         <obo:IAO_0000115 xml:lang="en">Market design regulation is a regulatory instrument that sets out the permitted roles and interaction procedures for market actors, including who can participate and how prices are determined.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">market design regulation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010135 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000135 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010135">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010132"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000135">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000132"/>
         <obo:IAO_0000112 xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">Grid access and priority for renewables is a market design regulation that gives priority to renewable energy production and guarantees full purchase of their electricity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">grid access and priority for renewables</rdfs:label>
@@ -1169,10 +1113,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010136 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000136 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010136">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010132"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000136">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000132"/>
         <obo:IAO_0000112 xml:lang="en">Grid operators cannot refuse connection of a heat pump, but they may be allowed to switch off the device if there is an acute threat of overloading their networks.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A rule on integrating controllable devices is a market design regulation for the interactions between grid operators and controllable consumer devices.</obo:IAO_0000115>
         <dc:source xml:lang="en">https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/EN/2023/20231127_14a.html</dc:source>
@@ -1181,10 +1125,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010137 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000137 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010137">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010132"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000137">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000132"/>
         <obo:IAO_0000112 xml:lang="en">https://www.ceer.eu/publication/ceer-recommendations-on-dynamic-price-implementation/</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A rule on dynamic pricing is a market design regulation which allows for dynamic pricing, setting electricity prices for consumers to reflect the price variation at the spot markets.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">rule on dynamic pricing</rdfs:label>
@@ -1192,20 +1136,20 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010138 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000138 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010138">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010132"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000138">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000132"/>
         <obo:IAO_0000115 xml:lang="en">An independent power production policy is a market design regulation which allows non-governmental actors to generate electricity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">independent power production policy</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010139 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000139 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010139">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010132"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000139">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000132"/>
         <obo:IAO_0000112 xml:lang="en">https://www.sciencedirect.com/science/article/pii/S0960148119301004</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A net metering policy is a market design regulation which allows consumers who generate their own electricity to also buy and sell electricity from the grid.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">net billing policy</obo:IAO_0000118>
@@ -1214,10 +1158,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010140 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000140 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010140">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010132"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000140">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000132"/>
         <obo:IAO_0000112 xml:lang="en">A company sells electricity directly to a data center, rather than to a utility.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A direct purchasing regulation is a market design regulation that allows independent power producers to sell electricity to other actors. This implies a bilateral contract between an electricity producer (often a renewable energy developer) and a buyer.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">power purchase agreement</obo:IAO_0000118>
@@ -1226,20 +1170,20 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010141 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000141 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010141">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010132"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000141">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000132"/>
         <obo:IAO_0000115 xml:lang="en">A self-consumption policy is a market design regulation which allows individuals to produce and consume their own power.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">self-consumption policy</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010142 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000142 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010142">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010132"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000142">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000132"/>
         <obo:IAO_0000112 xml:lang="en">https://www.researchgate.net/publication/371389707_Prufung_einer_Landesregelung_zur_finanziellen_Be-_teiligung_an_Windenergieanlagen_an_Land_fur_den_Freistaat_Sachsen_Executive_Summary</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">Citizen financial participation is a market design regulation which allows residents and communities to become partial owners of energy assets.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">citizen financial participation</rdfs:label>
@@ -1247,10 +1191,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010143 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000143 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010143">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010012"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000143">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000012"/>
         <obo:IAO_0000115 xml:lang="en">A voluntary instrument is a policy instrument where government acts in a coordinating role, but not as a central designer and implementer of policies; measures may be initiated by governments, but also non-state actors such as firms or NGOs.</obo:IAO_0000115>
         <dc:source xml:lang="en">IPCC 2018, see especially p. 95</dc:source>
         <rdfs:label xml:lang="en">voluntary instrument</rdfs:label>
@@ -1258,10 +1202,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010144 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000144 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010144">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010143"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000144">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000143"/>
         <obo:IAO_0000115 xml:lang="en">A public-private partnership is a voluntary collaborative relationship between various parties, both state and non-state, in which all parties work together to achieve a common purpose or specific task and share risks, responsibilities, resources, and benefits.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">PPP</obo:IAO_0000118>
         <dc:source xml:lang="en">Kolati and Raghutla 2023, Hodge and Greve 2011</dc:source>
@@ -1270,10 +1214,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010145 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000145 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010145">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010143"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000145">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000143"/>
         <obo:IAO_0000112 xml:lang="en">eco-labels such as the German Blue Angel, Nordic Swan, or US Energy Star</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A public voluntary scheme is a voluntary instrument where a regulator develops a program or performance criteria with which industries and firms can choose whether or not to comply.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">public voluntary scheme</rdfs:label>
@@ -1281,10 +1225,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010146 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000146 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010146">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010143"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000146">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000143"/>
         <obo:IAO_0000115 xml:lang="en">A negotiated agreement between the public and private sector is a voluntary instrument where governments and the private sector establish a set of targets for environmental issues. The precise terms of the agreement vary in terms of what information must be reported and how this is audited, whether or not the targets are legally binding, etc. In most instances, agreements are negotiated to avoid direct regulation or market-based instruments.</obo:IAO_0000115>
         <dc:source xml:lang="en">Penasco 2021, Bailey 2008</dc:source>
         <rdfs:label xml:lang="en">negotiated agreement between the public and private sector</rdfs:label>
@@ -1292,10 +1236,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010147 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000147 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010147">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010143"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000147">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000143"/>
         <obo:IAO_0000112 xml:lang="en">the Powering Past Coal Alliance led by the UK and Canada, where joining members commit to accelerating the transition from coal to clean energy https://poweringpastcoal.org/</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An international agreement is an agreement between international actors which sets targets for environmental issues, to which other actors can choose to commit. This commitment and targets can be binding or not.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">international agreement</rdfs:label>
@@ -1303,21 +1247,21 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010148 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000148 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010148">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010045"/>
-        <owl:disjointWith rdf:resource="http://purl.org/cepo/ontology#cepo_00010149"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000148">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000045"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000149"/>
         <obo:IAO_0000115 xml:lang="en">A tax is a levy imposed by the government that is not tied to a specific benefit or service.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">tax</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010149 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000149 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010149">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010045"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000149">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000045"/>
         <obo:IAO_0000115 xml:lang="en">A fee is a levy imposed by the government in exchange for provding a specific good or service.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">charge</obo:IAO_0000118>
         <rdfs:label xml:lang="en">fee</rdfs:label>
@@ -1325,14 +1269,14 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010150 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000150 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010150">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010051"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000150">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010149"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000149"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">the removal of vehicle registration fees for electric vehicles</obo:IAO_0000112>
@@ -1343,14 +1287,14 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010151 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000151 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010151">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010051"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000151">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010148"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000148"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A tax incentive is a financial incentive where the government reduces or exempts selected activities, goods, or actors from taxes.</obo:IAO_0000115>
@@ -1360,10 +1304,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010152 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000152 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010152">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010151"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000152">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000151"/>
         <obo:IAO_0000112 xml:lang="en">A lower VAT rate for renewable energy equipment</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A tax reduction is a tax incentive where the government reduces taxes for selected activities, goods or actors.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
@@ -1372,10 +1316,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010153 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000153 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010153">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010151"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000153">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000151"/>
         <obo:IAO_0000112 xml:lang="en">Homeowners can deduct 40% of the cost of renewable energy renovations (e.g. solar, passive house improvements) from their income tax.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A tax deduction is a tax incentive where actors can reduce their base taxable amount.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">tax deduction</rdfs:label>
@@ -1383,10 +1327,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010154 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000154 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010154">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010151"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000154">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000151"/>
         <obo:IAO_0000112 xml:lang="en">Companies that make investments in solar or bioenergy can reduce their tax burden by 8% of the investment costs. In this way, the tax burden can be reduced by a maximum of 35%.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A tax credit is a tax incentive where the calculated taxes owed to the government are reduced, either as a percentage of taxes owed or as a currency amount.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from https://www.cleanenergyresourceteams.org/what-you-need-know-about-ira-tax-credit-vs-rebate</dc:source>
@@ -1395,10 +1339,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010155 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000155 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010155">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010065"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000155">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000065"/>
         <obo:IAO_0000115 xml:lang="en">A fixed feed-in premium is a feed-in premium where producers receive a fixed amount of excess revenue on top of the market price.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">fixed FIP</obo:IAO_0000118>
         <dc:source xml:lang="en">https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022DC0638)22DC0638</dc:source>
@@ -1407,10 +1351,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010156 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000156 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010156">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010065"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000156">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000065"/>
         <obo:IAO_0000115 xml:lang="en">A floating premium is a feed-in premium with a variable subsidy which complements the market price.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">sliding premium</obo:IAO_0000118>
         <dc:source xml:lang="en">https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022DC0638; https://www.sciencedirect.com/science/article/pii/S0140988316302377#fn0030</dc:source>
@@ -1419,10 +1363,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010157 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000157 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010157">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010156"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000157">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000156"/>
         <obo:IAO_0000115 xml:lang="en">A feed-in premium with floor price is a floating premium where, if market price is below the targeted subsidy, producers receive support that covers the gap, and if market price is higher, they can keep the excess revenue.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">FIP with floor price</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">one-sided sliding FIP</obo:IAO_0000118>
@@ -1432,10 +1376,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010158 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000158 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010158">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010156"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000158">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000156"/>
         <obo:IAO_0000118 xml:lang="en">2-sided premium</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">two-sided premium</obo:IAO_0000118>
         <dc:description xml:lang="en">A symmetrical premium is a floating premium which has both a floor and ceiling price whereby positive and negative deviations are paid out to the contractual partner. This means that a minimum compensation is guaranteed, but revenues are capped.</dc:description>
@@ -1445,10 +1389,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010159 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000159 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010159">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010065"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000159">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000065"/>
         <obo:IAO_0000112 xml:lang="en">the UK CfDs between electricity providers and a government-owned company https://www.gov.uk/government/collections/contracts-for-difference</obo:IAO_0000112>
         <dc:description xml:lang="en">A contract for difference is a feed-in premium wherein a public entity concludes a contract to encourage investment. It tops up the market price paid for goods if the price is below a certain level, but if the market price is above a certain level the provider must pay back the excess.</dc:description>
         <dc:source xml:lang="en">https://ec.europa.eu/commission/presscorner/detail/en/qanda_23_1593</dc:source>
@@ -1457,10 +1401,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010160 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000160 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010160">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010065"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000160">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000065"/>
         <obo:IAO_0000118 xml:lang="en">symmetrical CfD</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">two-sided CfD</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">two-sided contract for difference</obo:IAO_0000118>
@@ -1471,10 +1415,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010161 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000161 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010161">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010068"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000161">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000068"/>
         <obo:IAO_0000115 xml:lang="en">A research and development grant is a grant to support research and development.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">R&amp;D grant</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">research &amp; development grant</obo:IAO_0000118>
@@ -1483,20 +1427,20 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010162 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000162 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010162">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010051"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000162">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000051"/>
         <obo:IAO_0000115 xml:lang="en">A loan is a financial incentive where the government provides repayable funding to reduce risk and facilitate access to financing for specific purposes.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">loan</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010163 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000163 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010163">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010072"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000163">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000072"/>
         <obo:IAO_0000112 xml:lang="en">purchasing stakes in a firm, purchasing a power plant, constructing and operating infrastructures</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A direct asset investment is a direct investment by the government in assets.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">direct asset investment</rdfs:label>
@@ -1504,20 +1448,20 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010164 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000164 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010164">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010163"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000164">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000163"/>
         <obo:IAO_0000115 xml:lang="en">A direct power generation investment is a direct asset investment in power generation capacity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">direct power generation investment</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010165 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000165 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010165">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010087"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000165">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000087"/>
         <obo:IAO_0000112 xml:lang="en">roof area limitation for installing rooftop PV</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An area limitation is an exclusion area regulation that limits the area in which objects can be built.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">area limitation</rdfs:label>
@@ -1525,10 +1469,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010167 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000167 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010167">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010091"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000167">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000091"/>
         <obo:IAO_0000112 xml:lang="en">a regulation establishing an installed capacity limitation for rooftop PV</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An installed capacity limitation is a characteristic regulation that sets limits on the maximum installed capacity of a particular object or renewable generation site.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">installed capacity limitation</rdfs:label>
@@ -1536,10 +1480,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010168 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000168 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010168">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010105"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000168">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000105"/>
         <obo:IAO_0000115 xml:lang="en">A product emissions standard is an emissions cap for specific products to limit their emissions/pollution.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">product emissions standard</rdfs:label>
@@ -1547,10 +1491,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010169 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000169 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010169">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010168"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000169">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000168"/>
         <obo:IAO_0000115 xml:lang="en">A fuel air pollution standard is a product emissions standard that sets out emissions and pollution requirements for fuel.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">fuel emissions standard</obo:IAO_0000118>
         <dc:source xml:lang="en">https://climate.ec.europa.eu/eu-action/transport/fuel-quality_en</dc:source>
@@ -1560,10 +1504,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010170 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000170 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010170">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010101"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000170">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000101"/>
         <obo:IAO_0000115 xml:lang="en">An energy use cap is a performance standard that sets a cap on energy use, either total per actor/sector, or per unit of output.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">efficiency standard</obo:IAO_0000118>
         <rdfs:label xml:lang="en">energy use cap</rdfs:label>
@@ -1571,10 +1515,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010171 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000171 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010171">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010170"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000171">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000170"/>
         <obo:IAO_0000115 xml:lang="en">A product efficiency standard is an energy use cap for specific products to limit their energy intensity.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">product efficiency standard</rdfs:label>
@@ -1582,10 +1526,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010172 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000172 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010172">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010170"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000172">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000170"/>
         <obo:IAO_0000115 xml:lang="en">A sectoral energy use cap is an energy use cap that sets the maximum amount for how much energy actors in a certain sector are allowed to consume. This can be (but is not always) a regulatory element of efficiency-related trading systems.</obo:IAO_0000115>
         <dc:source xml:lang="en">https://www.sciencedirect.com/science/article/pii/S0360544221022192</dc:source>
         <rdfs:label xml:lang="en">sectoral energy use cap</rdfs:label>
@@ -1593,10 +1537,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010173 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000173 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010173">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010170"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000173">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000170"/>
         <obo:IAO_0000115 xml:lang="en">An energy efficiency quota is an energy use cap that sets out quotas for energy efficiency improvements.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">energy efficiency quota</rdfs:label>
@@ -1604,10 +1548,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010174 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000174 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010174">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010170"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000174">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000170"/>
         <obo:IAO_0000115 xml:lang="en">An industrial efficiency standard is an energy use cap that is mandatory and regulates the energy efficiency of industry actors.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">industrial efficiency standard</rdfs:label>
@@ -1615,10 +1559,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010175 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000175 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010175">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010170"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000175">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000170"/>
         <obo:IAO_0000112 xml:lang="en">standards for insulation</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A building efficiency standard is an energy use cap which requires buildings to comply with requirements for energy demand and the heat that can escape.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">building efficiency standard</rdfs:label>
@@ -1626,10 +1570,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010176 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000176 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010176">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010112"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000176">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000112"/>
         <obo:IAO_0000112 xml:lang="en">a minimum share of zero-emission vehicles or of renewable energy</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A purchasing requirement is a quota which requires an actor to acquire a certain share of a clean good or service.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">demand-side quota</obo:IAO_0000118>
@@ -1642,10 +1586,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010177 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000177 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010177">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010112"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000177">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000112"/>
         <obo:IAO_0000112 xml:lang="en">China&apos;s supply-side renewables portfolio standards, see https://www.sciencedirect.com/science/article/pii/S030142152300383X?via%3Dihub#abs0010</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A production requirement is a quota which requires an actor to provide a certain share of a clean good or service.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">production quota</obo:IAO_0000118>
@@ -1655,10 +1599,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010178 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000178 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010178">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010112"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000178">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000112"/>
         <obo:IAO_0000112 xml:lang="en">parking lot owner must install at least 1 EV charger per 10 parking spaces; 100% of new rented buildings must have solar panels</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An installation requirement is a quota which requires an actor to install a certain share of a clean good or service.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">installation quota</obo:IAO_0000118>
@@ -1667,10 +1611,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010179 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000179 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010179">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010178"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000179">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000178"/>
         <obo:IAO_0000112 xml:lang="en">PV panels must be installed on new buildings, renovated roofs, or parking garages</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A photovoltaic installation requirement is an installation requirement that sets requirements for installing solar PV systems.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">PV installation requirement</obo:IAO_0000118>
@@ -1679,10 +1623,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010180 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000180 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010180">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010178"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000180">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000178"/>
         <obo:IAO_0000112 xml:lang="en">1 in 10 parking spaces must include EV charging stations</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An electric vehicle charging installation requirement is an installation requirement that sets requirements for installing EV charging stations.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">EV charging installation requirement</obo:IAO_0000118>
@@ -1691,10 +1635,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010181 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000181 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010181">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010178"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000181">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000178"/>
         <obo:IAO_0000112 xml:lang="en">a person who installs a solar PV system must also install a battery storage unit</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A storage installation requirement is an installation requirement that sets requirements for actors to install energy storage capacities.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">storage installation requirement</rdfs:label>
@@ -1702,10 +1646,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010182 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000182 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010182">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010100"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000182">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000100"/>
         <obo:IAO_0000112 xml:lang="en">a solar PV auction, or an auction for low-emissions hydrogen</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A tendering scheme standard is a standard set for bidding competition for potential providers of a required good or service aimed at reducing provision costs, e.g. through auctions. This can be tied to economic policy instruments sich as FITs. The standard may be technology-specific or performance-based.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">auction standard</obo:IAO_0000118>
@@ -1715,14 +1659,14 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010183 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000183 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010183">
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000183">
         <rdfs:subClassOf rdf:resource="http://openenergy-platform.org/ontology/oeo/OEO_00000238"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001920"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010128"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000128"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An auditing institution is an institution created to enforce compliances with established governmental rules and standards.</obo:IAO_0000115>
@@ -1732,14 +1676,14 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010184 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000184 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010184">
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000184">
         <rdfs:subClassOf rdf:resource="http://openenergy-platform.org/ontology/oeo/OEO_00000238"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001920"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010128"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000128"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A monitoring institution is an institution created to continuously and systematically collect data to supervise specific activities for evaluation and enforcement purposes.</obo:IAO_0000115>
@@ -1749,14 +1693,14 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010185 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000185 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010185">
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000185">
         <rdfs:subClassOf rdf:resource="http://openenergy-platform.org/ontology/oeo/OEO_00000238"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001920"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010128"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000128"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A coordinating body for climate strategy is an institution created to regulate and monitor climate change responses and strategies.</obo:IAO_0000115>
@@ -1766,14 +1710,14 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010186 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000186 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010186">
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000186">
         <rdfs:subClassOf rdf:resource="http://openenergy-platform.org/ontology/oeo/OEO_00000238"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001920"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010128"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000128"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">UK Climate Change Committee: https://www.lse.ac.uk/granthaminstitute/news/why-the-uks-climate-change-committee-is-crucial-to-advancing-evidence-based-climate-policymaking/</obo:IAO_0000112>
@@ -1783,14 +1727,14 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010187 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000187 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010187">
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000187">
         <rdfs:subClassOf rdf:resource="http://openenergy-platform.org/ontology/oeo/OEO_00000238"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001920"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010128"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000128"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">citizen climate assemblies, see https://www.knoca.eu/climate-assemblies</obo:IAO_0000112>
@@ -1801,14 +1745,14 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010188 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000188 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010188">
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000188">
         <rdfs:subClassOf rdf:resource="http://openenergy-platform.org/ontology/oeo/OEO_00000238"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.commoncoreontologies.org/ont00001920"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010128"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000128"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">independent domestic agencies for climate finance,  https://www.iea.org/policies/14055-government-investment-in-decarbonising-industry-fund-gidi.</obo:IAO_0000112>
@@ -1818,10 +1762,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010189 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000189 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010189">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010184"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000189">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000184"/>
         <obo:IAO_0000115 xml:lang="en">A measurement, reporting and verification monitoring institution establishes systems for the measurement, reporting and verification (MRV) of emissions data to ensure its veracity, consistency and compliance with reporting requirements.</obo:IAO_0000115>
         <obo:OMO_0003000 xml:lang="en">MRV monitoring institution</obo:OMO_0003000>
         <dc:source xml:lang="en">based on paraphrase of https://unece.org/monitoring-reporting-and-verification-mrv</dc:source>
@@ -1830,9 +1774,9 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010190 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000190 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010190">
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115 xml:lang="en">A strategic planning process is a process that institutionalizes processes to set strategic direction and roadmaps for specific sectors or for the economy as a whole.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
@@ -1841,10 +1785,10 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010191 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000191 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010191">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010051"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000191">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000051"/>
         <obo:IAO_0000115 xml:lang="en">Insurance is a financial incentive where the government offers insurance schemes to reduce risk for projects.</obo:IAO_0000115>
         <dc:source xml:lang="en">CPR</dc:source>
         <rdfs:label xml:lang="en">insurance</rdfs:label>
@@ -1852,179 +1796,14 @@
     
 
 
-    <!-- http://purl.org/cepo/ontology#cepo_00010192 -->
+    <!-- http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000192 -->
 
-    <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010192">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010084"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000192">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/awein/ontologies/2024/11/CEPO#CEPO_00000084"/>
         <obo:IAO_0000112 xml:lang="en">a regulation establishing a priority zone for wind energy due to the high wind potential or less conflict with neighborhoods</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A priority area regulation is a zoning and spatial planning regulation that prioritizes a certain area to be built or entered, and within this zone, the other activities are mainly not allowed.</obo:IAO_0000115>
         <dc:source xml:lang="en">adapted from Bucha and Ramirez Camargo, “Deliverable D2.10 Data on Regulatory and Socio-Economic Conditions and Impacts (b).” Dec. 2024.</dc:source>
         <rdfs:label xml:lang="en">priority area regulation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/cepo/ontology/cepo_00010193 -->
-
-    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010193">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010116"/>
-        <obo:IAO_0000112 xml:lang="en">Gas may not be drilled in certain territories.</obo:IAO_0000112>
-        <obo:IAO_0000115>A moratorium is a ban which is framed as temporary; placing a &quot;moratorium&quot; implies a willingness to continu studying it and potentially revisit it in the future.</obo:IAO_0000115>
-        <dc:source xml:lang="en">https://climatepolicyradar.wikibase.cloud/wiki/Item:Q1413</dc:source>
-        <rdfs:label xml:lang="en">moratorium</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/cepo/ontology/cepo_00010194 -->
-
-    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010194">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010116"/>
-        <obo:IAO_0000112 xml:lang="en">Coal may no longer be mined or burned in a certain country.</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">A phase-out is a ban on technologies, substances and practices which aims to catalyze their decline to meet environmental sustainability objectives.</obo:IAO_0000115>
-        <dc:source xml:lang="en">https://climatepolicyradar.wikibase.cloud/wiki/Item:Q1414</dc:source>
-        <rdfs:comment xml:lang="en">&quot;Phase-out&quot; differs from the similar term &quot;phase-down&quot; in that its aim is elimination and not just reduction of the banned entity.</rdfs:comment>
-        <rdfs:label xml:lang="en">phase-out</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/cepo/ontology/cepo_00010195 -->
-
-    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010195">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010116"/>
-        <obo:IAO_0000112 xml:lang="en">Coal power stations may only operate at 35% capacity or less.</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">A phase-down is a ban on certain amounts of technoloies, substances or practices which aims to reduce the usage of the banned entity to meet environmental sustainability objectives.</obo:IAO_0000115>
-        <dc:source xml:lang="en">https://climatepolicyradar.wikibase.cloud/wiki/Item:Q1415</dc:source>
-        <rdfs:comment xml:lang="en">&quot;Phase-down&quot; differs from the similar term &quot;phase-out&quot; in that its aim is reduction and not elimination of the banned entity.</rdfs:comment>
-        <rdfs:label xml:lang="en">phase-down</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/cepo/ontology/cepo_00010196 -->
-
-    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010196">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010155"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An auction with fixed feed-in premium is an auction where participants compete for a fixed feed-in premium.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">auction with fixed FIP</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">auction with fixed feed-in premium</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/cepo/ontology/cepo_00010197 -->
-
-    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010197">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010064"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An auction with feed-in tariff is an auction where participants compete for a feed-in tariff.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">auction with FIT</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">auction with feed-in tariff</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/cepo/ontology/cepo_00010198 -->
-
-    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010198">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010203"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010157"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An auction with floating feed-in premium with floor price is an auction where participants compete for a floating (alternatively called sliding) feed-in premium with floor price (alternatively called one-sided).</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">auction with 1-sided sliding FIP</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">auction with one-sided floating feed-in premium</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">auction with one-sided sliding feed-in premium</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">auction with floating feed-in premium with floor price</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/cepo/ontology/cepo_00010199 -->
-
-    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010199">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010203"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010158"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An auction with symmetrical floating feed-in premium is an auction where participants compete for a symmetrical (alternatively called two-sided) floating (alternatively called sliding) feed-in premium.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">auction with 2-sided sliding FIP</obo:IAO_0000118>
-        <obo:IAO_0000118>auction with two-sided floating feed-in premium</obo:IAO_0000118>
-        <obo:IAO_0000118>auction with two-sided sliding feed-in premium</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">auction with symmetrical floating feed-in premium</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/cepo/ontology/cepo_00010200 -->
-
-    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010200">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010202"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010068"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An auction with grant is an auction where participants compete for grants covering a certain amount of project costs.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">auction with grant</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/cepo/ontology/cepo_00010201 -->
-
-    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010201">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010202"/>
-        <obo:IAO_0000115 xml:lang="en">An auction with zero subsidy is an auction where participants compete for the right to develop a project without receiving monetary support (but may receive non-monetary benefits such as land access or interconnections).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">auction with zero subsidy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/cepo/ontology/cepo_00010202 -->
-
-    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010202">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010037"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010182"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An auction is an economic instrument that allocates resources based on a bidding competition. These resources may be financial (for example, an auction with a feed-in tariff) or other resources such as access to land.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">auction</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/cepo/ontology/cepo_00010203 -->
-
-    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010203">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
-        <obo:IAO_0000115 xml:lang="en">An auction with floating feed-in premium is an auction where participants compete for a floating (alternatively called sliding) feed-in premium.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">auction with floating FIP</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">auction with sliding FIP</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">auction with sliding feed-in premium</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">auction with floating feed-in premium</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
