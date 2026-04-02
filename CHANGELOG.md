@@ -1,6 +1,6 @@
 <!--
 SPDX-FileCopyrightText: 2024 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
-SPDX-FileCopyrightText: Climate and Energy Policy Ontology <https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/>
+SPDX-FileCopyrightText: Climate and Energy Policy Ontology <https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/>
 SPDX-License-Identifier: CC0-1.0
 -->
 
@@ -24,7 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0]
 
 ### Added
-- Add introduction, description, scope, and logo to README [(#2)](https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/pull/2)
+- Introduction, description, scope, and logo to README [(#2)](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/pull/2)
 
 ### Changed
 
@@ -33,7 +33,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.0] Initial Release - Hello World - 2025-10-10
 
 ### Added
-
 - GitHub repository
 - .gitignore
 - LICENSE (CC0-1.0 License)

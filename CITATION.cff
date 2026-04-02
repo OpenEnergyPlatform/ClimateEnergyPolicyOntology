@@ -1,5 +1,5 @@
 # SPDX-FileCopyrightText: 2024 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
-# SPDX-FileCopyrightText: Climate and Energy Policy Ontology <https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology>
+# SPDX-FileCopyrightText: Climate and Energy Policy Ontology <https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology>
 # SPDX-License-Identifier: CC0-1.0
 
 cff-version: 1.2.0
@@ -56,4 +56,4 @@ license: CC0-1.0
 version: 0.1.0
 doi: null
 date-released: 2025-10-13
-url: "https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/"
+url: "https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/"
