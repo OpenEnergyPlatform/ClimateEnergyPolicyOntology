@@ -113,7 +113,7 @@ Citation
 
 
 .. |badge_license_CC0| image:: https://img.shields.io/badge/License-CC0%201.0-green.svg
-    :target: http://creativecommons.org/publicdomain/zero/1.0
+    :target: https://creativecommons.org/publicdomain/zero/1.0/
     :alt: License CC0
 
 .. |badge_license_MIT| image:: https://img.shields.io/badge/License-MIT-green.svg
