@@ -28,7 +28,7 @@ Describe the release in as much detail as possible.
 - [ ] I am aware of the workflow in [RELEASE_PROCEDURE.md](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/blob/production/RELEASE_PROCEDURE.md)
 - [ ] 4. 🐙 Create a `Draft GitHub Release`
 - [ ] 5. 💠 Create a `release` branch
-- [ ] 6. 📝 Update the version files (CHANGELOG.md, CITATION.cff)
+- [ ] 6. 📝 Update the version files (CHANGELOG.md, CITATION.cff, VERSION)
 - [ ] 7. 🐙 Create a Release Pull Request
 - [ ] 8. 💠 Set the `Git Tag`
 - [ ] 9. 🐙 Publish `GitHub Release`
