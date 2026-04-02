@@ -2,7 +2,7 @@
 name: "New ontology term"
 about: For including new terms into the ontology
 title: Your title should make sense if said after "The issue is <your issue title>"
-labels: "new term, To do"
+labels: ["status: active :construction:", "part: ontology :owl"]
 assignees: ''
 
 ---

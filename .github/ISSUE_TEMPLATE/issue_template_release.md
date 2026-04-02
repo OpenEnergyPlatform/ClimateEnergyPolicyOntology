@@ -19,7 +19,7 @@ Describe the release in as much detail as possible.
 ## Details of the release
 
 **Name:** Find an appropriate and memorable name for the release that will help it be remembered.
-**Git tag:** v0.1.0 "super-repo Minor Release v0.1.0"
+**Git tag:** v0.1.0 "CEPO Minor Release v0.1.0"
 **Release Manager:** Choose a responsible person.
 **Date:** Arrange a convenient date
 

@@ -24,9 +24,9 @@ Describe possible ideas for solution and evaluate advantages and disadvantages.
 
 ## Context and Environment
 
-- Version used:
+- Ontology version used:
 - Operating system:
-- Environment setup and (python) version:
+- Protege version:
 
 ## Workflow checklist
 
