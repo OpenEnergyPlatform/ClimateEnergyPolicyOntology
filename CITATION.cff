@@ -45,6 +45,11 @@ authors:
     alias: ""
     affiliation: "Friedrich-Alexander University Erlangen-Nürnberg"
     orcid: "https://orcid.org/0000-0001-6913-5956"
+ - family-names: "Bold"
+    given-names: "Franziska"
+    alias: ""
+    affiliation: "Friedrich-Alexander University Erlangen-Nürnberg"
+    orcid: "https://orcid.org/0009-0005-9861-8013"
 title: "Climate and Energy Policy Ontology (CEPO)"
 type: software
 license: CC0-1.0
