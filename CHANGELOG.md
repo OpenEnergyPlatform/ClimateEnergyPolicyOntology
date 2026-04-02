@@ -31,7 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Class `phase-down` [(#16)](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/pull/16)
 - Class `auction` [(#16)](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/pull/16)
 - Class `auction with floating feed-in premium` [(#16)](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/pull/16)
-- Issue template file `new-ontology-term.md` [(#21)](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/pull/21)
+- Issue template `issue_template_new_ontology_term.md` [(#21)](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/pull/21)
 
 ### Changed
 - Ontology metadata [(#15)](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/pull/15)
