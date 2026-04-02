@@ -563,7 +563,7 @@
     <!-- http://purl.org/cepo/ontology#cepo_00010066 -->
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010066">
-        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010056"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010202"/>
         <obo:IAO_0000115 xml:lang="en">An auction with market premium is a market premium granted in a bidding competition or auction, wherein tendered capacity includes additional support through a mechanism such as a feed-in tariff, feed-in premium, or contract for difference.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">auction with market premium</rdfs:label>
     </owl:Class>
@@ -681,6 +681,12 @@
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010078">
         <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A greenhouse gas emissions trading scheme is a trading scheme wherein governments issue tradable emissions certificates, often combined with a fixed emissions cap (overall or set on specific actors), thereby setting economic incentives to reduce emissions.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">GHG emissions trading scheme</obo:IAO_0000118>
         <obo:IAO_0000118>carbon markets</obo:IAO_0000118>
@@ -694,6 +700,12 @@
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010079">
         <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A white certificate trading scheme is a trading scheme where the government has established a quota for the generation of tradeable energy savings certificates produced by energy efficiency activities OR reduced energy consumption measured against a baseline; these can be traded to incentivize emissions reductions.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">white certificate trading scheme</rdfs:label>
@@ -705,6 +717,12 @@
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010080">
         <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A green certificate trading scheme is a trading scheme where producers of renewable electricity receive tradeable certificates for each unit of electricity generated. These certificates can then be sold separately from the electricity itself, typically to energy suppliers who are obligated via a quota to source a certain share of their electricity from renewables. This creates a market for certificates, providing a financial incentive for renewable energy investment and production.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">green certificate trading scheme</rdfs:label>
@@ -716,6 +734,12 @@
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010081">
         <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010077"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">Clean Development Mechanism</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An offsetting scheme is a trading scheme where mitigation activities can calculate their impact against a baseline to obtain credits which can be sold for offsetting purposes such as baseline-and-credit schemes. This differs from an emissions trading scheme in that it does not have a cap, and can avoid emissions rather than reducing them.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">offsetting scheme</rdfs:label>
@@ -869,6 +893,11 @@
         <obo:IAO_0000115 xml:lang="en">A performance standard is a standard that sets required levels of performance (in terms of emissions, efficiency, etc.) but actors are free to choose the technologies and methods for how they will do so.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from IPCC</dc:source>
         <rdfs:label xml:lang="en">performance standard</rdfs:label>
+        <AnnotationVocabulary:usageNote xml:lang="en">Technology standards and performance standards are often seen as opposites - either one requires the use of a specific technology, or one sets some threshold for performance. In some cases, standards may be phrased in such a way that they are not exclusively a technology or performance standard. For example:
+
+&quot;storage installation requirement&quot; AND &quot;performance standard&quot;: All wind parks must have 1MW of storage.
+
+&quot;storage installation requirement&quot; AND &quot;performance standard&quot; AND &quot;technology standard&quot;: All wind parks must have 1MW of battery storage.</AnnotationVocabulary:usageNote>
     </owl:Class>
     
 
@@ -962,6 +991,11 @@
         <obo:IAO_0000115 xml:lang="en">A technology standard is a standard that requires a specific technology, process, or product. They typically take one of four forms: requirements for specific pollution abatement technologies; requirements for specific production methods; requirements for specific goods such as energy efficient appliances; or phase-out mandates.</obo:IAO_0000115>
         <dc:source xml:lang="en">IPCC</dc:source>
         <rdfs:label xml:lang="en">technology standard</rdfs:label>
+        <AnnotationVocabulary:usageNote xml:lang="en">Technology standards and performance standards are often seen as opposites - either one requires the use of a specific technology, or one sets some threshold for performance. In some cases, standards may be phrased in such a way that they are not exclusively a technology or performance standard. For example:
+
+&quot;storage installation requirement&quot; AND &quot;performance standard&quot;: All wind parks must have 1MW of storage.
+
+&quot;storage installation requirement&quot; AND &quot;performance standard&quot; AND &quot;technology standard&quot;: All wind parks must have 1MW of battery storage.</AnnotationVocabulary:usageNote>
     </owl:Class>
     
 
@@ -981,10 +1015,9 @@
 
     <owl:Class rdf:about="http://purl.org/cepo/ontology#cepo_00010116">
         <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010114"/>
-        <obo:IAO_0000115 xml:lang="en">A moratorium is a technology standard that forbids an activity, technology or product because of its environmental harms.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">ban</obo:IAO_0000118>
+        <obo:IAO_0000115 xml:lang="en">A ban is a technology standard that forbids an activity, technology or product because of its environmental harms.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPR</dc:source>
-        <rdfs:label xml:lang="en">moratorium</rdfs:label>
+        <rdfs:label xml:lang="en">ban</rdfs:label>
     </owl:Class>
     
 
@@ -1110,6 +1143,7 @@
         <obo:IAO_0000115 xml:lang="en">Institutional creation is a regulatory instrument that creates an institution.</obo:IAO_0000115>
         <dc:source xml:lang="en">Adapted from CPDB: https://climatepolicydatabase.org/</dc:source>
         <rdfs:label xml:lang="en">institutional creation</rdfs:label>
+        <AnnotationVocabulary:usageNote xml:lang="en">Each instance of &quot;institutional creation&quot; should also specify what type of institution was created.</AnnotationVocabulary:usageNote>
     </owl:Class>
     
 
@@ -1826,6 +1860,171 @@
         <obo:IAO_0000115 xml:lang="en">A priority area regulation is a zoning and spatial planning regulation that prioritizes a certain area to be built or entered, and within this zone, the other activities are mainly not allowed.</obo:IAO_0000115>
         <dc:source xml:lang="en">adapted from Bucha and Ramirez Camargo, “Deliverable D2.10 Data on Regulatory and Socio-Economic Conditions and Impacts (b).” Dec. 2024.</dc:source>
         <rdfs:label xml:lang="en">priority area regulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010193 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010193">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010116"/>
+        <obo:IAO_0000112 xml:lang="en">Gas may not be drilled in certain territories.</obo:IAO_0000112>
+        <obo:IAO_0000115>A moratorium is a ban which is framed as temporary; placing a &quot;moratorium&quot; implies a willingness to continu studying it and potentially revisit it in the future.</obo:IAO_0000115>
+        <dc:source xml:lang="en">https://climatepolicyradar.wikibase.cloud/wiki/Item:Q1413</dc:source>
+        <rdfs:label xml:lang="en">moratorium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010194 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010194">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010116"/>
+        <obo:IAO_0000112 xml:lang="en">Coal may no longer be mined or burned in a certain country.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A phase-out is a ban on technologies, substances and practices which aims to catalyze their decline to meet environmental sustainability objectives.</obo:IAO_0000115>
+        <dc:source xml:lang="en">https://climatepolicyradar.wikibase.cloud/wiki/Item:Q1414</dc:source>
+        <rdfs:comment xml:lang="en">&quot;Phase-out&quot; differs from the similar term &quot;phase-down&quot; in that its aim is elimination and not just reduction of the banned entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">phase-out</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010195 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010195">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010116"/>
+        <obo:IAO_0000112 xml:lang="en">Coal power stations may only operate at 35% capacity or less.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A phase-down is a ban on certain amounts of technoloies, substances or practices which aims to reduce the usage of the banned entity to meet environmental sustainability objectives.</obo:IAO_0000115>
+        <dc:source xml:lang="en">https://climatepolicyradar.wikibase.cloud/wiki/Item:Q1415</dc:source>
+        <rdfs:comment xml:lang="en">&quot;Phase-down&quot; differs from the similar term &quot;phase-out&quot; in that its aim is reduction and not elimination of the banned entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">phase-down</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010196 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010196">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010155"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An auction with fixed feed-in premium is an auction where participants compete for a fixed feed-in premium.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">auction with fixed FIP</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">auction with fixed feed-in premium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010197 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010197">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An auction with feed-in tariff is an auction where participants compete for a feed-in tariff.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">auction with FIT</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">auction with feed-in tariff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010198 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010198">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010203"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010157"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An auction with floating feed-in premium with floor price is an auction where participants compete for a floating (alternatively called sliding) feed-in premium with floor price (alternatively called one-sided).</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">auction with 1-sided sliding FIP</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">auction with one-sided floating feed-in premium</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">auction with one-sided sliding feed-in premium</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">auction with floating feed-in premium with floor price</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010199 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010199">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010203"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010158"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An auction with symmetrical floating feed-in premium is an auction where participants compete for a symmetrical (alternatively called two-sided) floating (alternatively called sliding) feed-in premium.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">auction with 2-sided sliding FIP</obo:IAO_0000118>
+        <obo:IAO_0000118>auction with two-sided floating feed-in premium</obo:IAO_0000118>
+        <obo:IAO_0000118>auction with two-sided sliding feed-in premium</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">auction with symmetrical floating feed-in premium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010200 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010200">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010202"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An auction with grant is an auction where participants compete for grants covering a certain amount of project costs.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">auction with grant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010201 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010201">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology/cepo_00010202"/>
+        <obo:IAO_0000115 xml:lang="en">An auction with zero subsidy is an auction where participants compete for the right to develop a project without receiving monetary support (but may receive non-monetary benefits such as land access or interconnections).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">auction with zero subsidy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010202 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010202">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010037"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.omg.org/spec/Commons/Collections/compliesWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/cepo/ontology#cepo_00010182"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An auction is an economic instrument that allocates resources based on a bidding competition. These resources may be financial (for example, an auction with a feed-in tariff) or other resources such as access to land.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">auction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/cepo/ontology/cepo_00010203 -->
+
+    <owl:Class rdf:about="http://purl.org/cepo/ontology/cepo_00010203">
+        <rdfs:subClassOf rdf:resource="http://purl.org/cepo/ontology#cepo_00010066"/>
+        <obo:IAO_0000115 xml:lang="en">An auction with floating feed-in premium is an auction where participants compete for a floating (alternatively called sliding) feed-in premium.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">auction with floating FIP</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">auction with sliding FIP</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">auction with sliding feed-in premium</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">auction with floating feed-in premium</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
