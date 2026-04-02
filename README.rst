@@ -1,6 +1,8 @@
 ..
   SPDX-FileCopyrightText: 2024 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
   SPDX-FileCopyrightText: super-repo v0.5.0 <https://github.com/rl-institut/super-repo>
+  SPDX-FileCopyrightText: Climate and Energy Policy Ontology <https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/>
+
   SPDX-License-Identifier: MIT
 
 .. figure:: https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/blob/develop/docs/img/CEPO_banner.png
@@ -24,7 +26,7 @@ Climate and Energy Policy Ontology
    * - Tests
      - 
    * - Publication
-     - 
+     - |badge_zenodo|
    * - Development
      - |badge_issue_open| |badge_issue_closes| |badge_pr_open| |badge_pr_closes|
    * - Community
@@ -48,6 +50,7 @@ Scope
 The CEPO is a collaborative effort between different researchers, from academia and
 civil society, to map and clearly define different kinds of climate and
 energy policy instruments.
+The ontology is mainly used in the `Climate Policy Atlas <https://climatepolicyatlas.org/>`_.
 Existing ways of categorizing policy instruments in the climate and energy realm were
 developed by practitioners like the International Energy Agency (IEA),
 Organization for Economic Cooperation and Development (OECD),
@@ -116,6 +119,10 @@ Citation
 .. |badge_license_MIT| image:: https://img.shields.io/badge/License-MIT-green.svg
     :target: https://opensource.org/license/mit
     :alt: License MIT
+
+.. |badge_zenodo| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.15583093.svg
+    :target: https://zenodo.org/records/15583093
+    :alt: Zenodo
 
 .. |badge_issue_open| image:: https://img.shields.io/github/issues-raw/OpenEnergyPlatform/climate-energy-policy-ontology
     :target: https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/issues
