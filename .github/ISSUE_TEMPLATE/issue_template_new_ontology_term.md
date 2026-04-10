@@ -2,7 +2,7 @@
 name: "New ontology term"
 about: For including new terms into the ontology
 title: Your title should make sense if said after "The issue is <your issue title>"
-labels: "new term, To do"
+labels: ["status: active :construction:", "part: ontology :owl"]
 assignees: ''
 
 ---
@@ -26,8 +26,8 @@ Please fill out as much of the list below as you can for each entity you wish to
 ## Workflow checklist
 
 - [ ] I discussed the issue with someone else than me before working on a solution
-- [ ] I already read the **latest** version of the [workflow](https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/blob/production/CONTRIBUTING.md) for this repository
-- [ ] The [goal](https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/blob/production/README.rst) of this ontology is clear to me 
+- [ ] I already read the **latest** version of the [workflow](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/blob/production/CONTRIBUTING.md) for this repository
+- [ ] The [goal](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/blob/production/README.rst) of this ontology is clear to me 
 
 I am aware that
 - [ ] every entry in the ontology should have a definition

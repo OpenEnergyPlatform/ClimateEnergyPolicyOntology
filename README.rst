@@ -1,11 +1,13 @@
 ..
   SPDX-FileCopyrightText: 2024 Ludwig Hülk <https://github.com/Ludee> © Reiner Lemoine Institut
   SPDX-FileCopyrightText: super-repo v0.5.0 <https://github.com/rl-institut/super-repo>
+  SPDX-FileCopyrightText: Climate and Energy Policy Ontology <https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/>
+
   SPDX-License-Identifier: MIT
 
-.. figure:: https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/blob/develop/docs/img/CEPO_banner.png
+.. figure:: https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/blob/develop/docs/img/CEPO_banner.png
     :align: left
-    :target: https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/
+    :target: https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/
     :alt: Repo logo
 
 ==================================
@@ -24,7 +26,7 @@ Climate and Energy Policy Ontology
    * - Tests
      - 
    * - Publication
-     - 
+     - |badge_zenodo|
    * - Development
      - |badge_issue_open| |badge_issue_closes| |badge_pr_open| |badge_pr_closes|
    * - Community
@@ -48,6 +50,7 @@ Scope
 The CEPO is a collaborative effort between different researchers, from academia and
 civil society, to map and clearly define different kinds of climate and
 energy policy instruments.
+The ontology is mainly used in the `Climate Policy Atlas <https://climatepolicyatlas.org/>`_.
 Existing ways of categorizing policy instruments in the climate and energy realm were
 developed by practitioners like the International Energy Agency (IEA),
 Organization for Economic Cooperation and Development (OECD),
@@ -86,13 +89,13 @@ Documentation
 Collaboration
 =============
 | Everyone is invited to develop this repository with good intentions.
-| Please follow the workflow described in the `CONTRIBUTING.md <https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/blob/production/CONTRIBUTING.md>`_.
+| Please follow the workflow described in the `CONTRIBUTING.md <https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/blob/production/CONTRIBUTING.md>`_.
 
 Contributors:
 
-.. figure:: https://contrib.rocks/image?repo=OpenEnergyPlatform/ClimateEnergyPolicyOntology
+.. figure:: https://contrib.rocks/image?repo=OpenEnergyPlatform/climate-energy-policy-ontology
     :align: left
-    :target: https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/graphs/contributors
+    :target: https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/graphs/contributors
     :alt: [contrib.rocks](https://contrib.rocks)
 
 License
@@ -100,47 +103,51 @@ License
 | This repository is **dual-licensed** under `Creative Commons Zero v1.0 Universal (CC0-1.0) <https://creativecommons.org/publicdomain/zero/1.0/legalcode>`_ or `MIT License (MIT) <https://opensource.org/license/mit>`_.
 | You can choose between one of them if you use this work.
 | See `LICENSE-CC0.txt <LICENSE-CC0.txt>`_ and `LICENSE-MIT.txt <LICENSE-MIT.txt>`_ for rights and obligations.
-| Copyright: `Climate and Energy Policy Ontology <https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/>`_ | `CC0-1.0 <http://creativecommons.org/publicdomain/zero/1.0/>`_ OR `MIT <https://opensource.org/license/mit>`_
+| Copyright: `Climate and Energy Policy Ontology <https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/>`_ | `CC0-1.0 <http://creativecommons.org/publicdomain/zero/1.0/>`_ OR `MIT <https://opensource.org/license/mit>`_
 
 Citation
 ========
-| For **scientific citation** of this ontology, please refer to the `CITATION.cff <https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/blob/production/CITATION.cff>`_ file.
+| For **scientific citation** of this ontology, please refer to the `CITATION.cff <https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/blob/production/CITATION.cff>`_ file.
 
 
 
 
 .. |badge_license_CC0| image:: https://img.shields.io/badge/License-CC0%201.0-green.svg
-    :target: http://creativecommons.org/publicdomain/zero/1.0/
+    :target: https://creativecommons.org/publicdomain/zero/1.0/
     :alt: License CC0
 
 .. |badge_license_MIT| image:: https://img.shields.io/badge/License-MIT-green.svg
     :target: https://opensource.org/license/mit
     :alt: License MIT
 
-.. |badge_issue_open| image:: https://img.shields.io/github/issues-raw/OpenEnergyPlatform/ClimateEnergyPolicyOntology
-    :target: https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/issues
+.. |badge_zenodo| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.15583093.svg
+    :target: https://zenodo.org/records/15583093
+    :alt: Zenodo
+
+.. |badge_issue_open| image:: https://img.shields.io/github/issues-raw/OpenEnergyPlatform/climate-energy-policy-ontology
+    :target: https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/issues
     :alt: Open Issues
 
-.. |badge_issue_closes| image:: https://img.shields.io/github/issues-closed-raw/OpenEnergyPlatform/ClimateEnergyPolicyOntology
-    :target: https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/issues?q=is%3Aissue+is%3Aclosed
+.. |badge_issue_closes| image:: https://img.shields.io/github/issues-closed-raw/OpenEnergyPlatform/climate-energy-policy-ontology
+    :target: https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/issues?q=is%3Aissue+is%3Aclosed
     :alt: Closed Issues
 
-.. |badge_pr_open| image:: https://img.shields.io/github/issues-pr-raw/OpenEnergyPlatform/ClimateEnergyPolicyOntology
-    :target: https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/pulls
+.. |badge_pr_open| image:: https://img.shields.io/github/issues-pr-raw/OpenEnergyPlatform/climate-energy-policy-ontology
+    :target: https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/pulls
     :alt: Open PR
 
-.. |badge_pr_closes| image:: https://img.shields.io/github/issues-pr-closed-raw/OpenEnergyPlatform/ClimateEnergyPolicyOntology
-    :target: https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/pulls?q=is%3Apr+is%3Aclosed
+.. |badge_pr_closes| image:: https://img.shields.io/github/issues-pr-closed-raw/OpenEnergyPlatform/climate-energy-policy-ontology
+    :target: https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/pulls?q=is%3Apr+is%3Aclosed
     :alt: Closed PR
 
 .. |badge_contributions| image:: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat
-    :target: https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/blob/production/CONTRIBUTING.md
+    :target: https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/blob/production/CONTRIBUTING.md
     :alt: Contributions
 
-.. |badge_contributors| image:: https://img.shields.io/github/contributors/OpenEnergyPlatform/ClimateEnergyPolicyOntology
-    :target: https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/graphs/contributors
+.. |badge_contributors| image:: https://img.shields.io/github/contributors/OpenEnergyPlatform/climate-energy-policy-ontology
+    :target: https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/graphs/contributors
     :alt: Contributors
 
-.. |badge_repo_counts| image:: https://hits.sh/github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology.svg
-    :target: https://hits.sh/github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/
+.. |badge_repo_counts| image:: https://hits.sh/github.com/OpenEnergyPlatform/climate-energy-policy-ontology.svg
+    :target: https://hits.sh/github.com/OpenEnergyPlatform/climate-energy-policy-ontology/
     :alt: Hits
