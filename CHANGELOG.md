@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 
-## [0.1.1]
+## [0.1.1] Patch Release - 2026-04-10
 
 ### Added
 - Introduction, description, scope, and logo to `README.rst` [(#2)](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/pull/2)
