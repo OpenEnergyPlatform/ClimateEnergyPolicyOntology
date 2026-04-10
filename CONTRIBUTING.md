@@ -13,7 +13,7 @@ SPDX-License-Identifier: MIT
 
 ## Types of interaction
 
-This repository is following the [Contributor Covenant Code of Conduct](https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/blob/production/CODE_OF_CONDUCT.md). <br>
+This repository is following the [Contributor Covenant Code of Conduct](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/blob/production/CODE_OF_CONDUCT.md). <br>
 Please be self-reflective and always maintain a good culture of discussion and active participation.
 
 ### A. Use
@@ -21,13 +21,13 @@ Please be self-reflective and always maintain a good culture of discussion and a
 Since the open license allows free use, no notification is required.
 However, for the authors it is valuable information who uses the software for what purpose.
 Indicators are `Watch`, `Fork` and `Starred` of the repository.<br>
-If you are a user, please add your name and details in [`📝USERS.cff`](https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/blob/production/USERS.cff).
+If you are a user, please add your name and details in [`📝USERS.cff`](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/blob/production/USERS.cff).
 
 ### B. Comment
 
 You can give ideas, hints or report bugs in issues, in PR, at meetings or other channels.
 This is no development but can be considered a notable contribution.
-If you wish, add your name and details to [`📝CITATION.cff`](https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/blob/production/CITATION.cff).
+If you wish, add your name and details to [`📝CITATION.cff`](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/blob/production/CITATION.cff).
 
 ### C. Contribute and Review
 
@@ -153,7 +153,7 @@ Examples of commit message: `Add function with some method #42` or `Update docum
 
 - Follow the GitHub guide [creating-a-pull-request](https://help.github.com/en/articles/creating-a-pull-request)
 - The PR should be directed: `base: develop` <- `compare: feature-1-collaboration`
-- Use the [Pull Request Template](https://github.com/OpenEnergyPlatform/ClimateEnergyPolicyOntology/blob/production/.github/pull_request_template.md)
+- Use the [Pull Request Template](https://github.com/OpenEnergyPlatform/climate-energy-policy-ontology/blob/production/.github/pull_request_template.md)
 - Check that all tests pass
 - Assign a reviewer and get in contact
 
